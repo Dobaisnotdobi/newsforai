@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Seoul",
+  "schedule": {
+    "weekday": "TH",
+    "hour": 11,
+    "minute": 0
+  },
+  "cafe": {
+    "club_id": "31813012",
+    "menu_id": "17",
+    "url": "https://cafe.naver.com/f-e/cafes/31813012/menus/17",
+    "visibility": "public"
+  },
+  "categories": [
+    "종합",
+    "영상",
+    "이미지",
+    "음악",
+    "기타"
+  ],
+  "initial_lookback_days": 7,
+  "skip_empty_categories": true,
+  "publishing_enabled": false,
+  "approval_status": "awaiting_confirmation_of_recurring_publication",
+  "title_date": "publication_date",
+  "item_date": "official_announcement_date"
+}
