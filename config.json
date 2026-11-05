@@ -22,7 +22,10 @@
   "initial_lookback_days": 7,
   "skip_empty_categories": true,
   "publishing_enabled": false,
-  "approval_status": "awaiting_confirmation_of_recurring_publication",
+  "approval_status": "approved_recurring_and_immediate",
   "title_date": "publication_date",
-  "item_date": "official_announcement_date"
+  "item_date": "official_announcement_date",
+  "approval_date": "2026-11-05",
+  "require_per_post_confirmation": false,
+  "operational_status": "integration_pending"
 }
