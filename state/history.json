@@ -162,7 +162,38 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-06-first",
+      "category": "이미지",
+      "title": "[11.06] 🎨 이미지 AI 뉴스레터 — OpenAI Images 2.6 출시",
+      "items": [
+        {
+          "event_id": "openai-images-2-6",
+          "revision": "launch",
+          "category": "이미지",
+          "announced_on": "2026-11-04",
+          "headline": "OpenAI Images 2.6 출시",
+          "bullets": [
+            "OpenAI는 이미지 생성 속도가 기존 대비 50% 빨라졌다고 발표했습니다.",
+            "GIF 제작을 지원하며 캐릭터·제품의 일관성을 유지하는 편집 기능을 개선했다고 설명했습니다.",
+            "API에 Flare·Sunburst 모델을 제공하고 이미지 마크업과 SVG 내보내기를 추가했습니다.",
+            "새 complexity 설정으로 생성 과정의 계획 수준을 조절합니다."
+          ],
+          "conditions": "발표 당일부터 ChatGPT·Codex의 모든 구독 등급에서 전 세계 데스크톱·모바일·웹에 제공한다고 안내했습니다. API 이용 요금은 원문에 연결된 공식 가격표를 확인하세요.",
+          "evidence": "Nov 4 original: speed, GIFs, API controls, pricing and availability sections.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-images-2-6/",
+              "label": "OpenAI — Introducing Images 2.6"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-06T09:35:59.548142+09:00",
+      "body_sha256": "3a7240aa6373f4774fb163937584c328632f4e1b08a6255c39642ad951794642"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
