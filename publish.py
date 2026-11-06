@@ -1,6 +1,5 @@
 """Publish an agent-reviewed issue with durable, conservative duplicate protection."""
 import hashlib
-import base64
 import html
 import json
 import re
@@ -91,9 +90,9 @@ def render(category,items,date):
             body+='<p><strong>회사 발표의 향후 계획</strong><br>'+html.escape(item['outlook'])+'</p>'
         if item.get('change'):
             body+='<p><strong>후속 변경</strong><br>'+html.escape(item['change'])+'</p>'
-            body+='<p>이전 글: <a href="'+html.escape(item['previous_url'],quote=True)+'">이전 게시물</a></p>'
+            body+='<p>이전 글: '+html.escape(item['previous_url'])+'</p>'
         for s in item['sources']:
-            body+='<p>공식 원문: <a href="'+html.escape(s['url'],quote=True)+'">'+html.escape(s['label'])+'</a></p>'
+            body+='<p>공식 원문: '+html.escape(s['label'])+' — '+html.escape(s['url'])+'</p>'
     body+='<p>성능·효과에 관한 설명은 각 회사의 공식 발표를 요약한 내용입니다.</p>'
     return {'subject':title,'content':body}
 
@@ -135,6 +134,11 @@ def main():
     issue=load('queue.json')
     state=load(HISTORY)
     validate(issue,config)
+    diagnostic = config.get('diagnostic_event_id')
+    if diagnostic:
+        issue['items']=[x for x in issue['items'] if x['event_id']==diagnostic]
+        if len(issue['items']) != 1:
+            raise ValueError('Diagnostic mode requires exactly one selected announcement')
     if '--validate' in sys.argv:
         for cat in config['categories']:
             items=fresh_items([x for x in issue['items'] if x['category']==cat],state)
@@ -168,8 +172,7 @@ def main():
         state['pending']=[pending]
         save(state)  # If durable push fails, never transmit.
         try:
-            poster=('newsletter.png','image/png',base64.b64decode(Path('banner.b64').read_text(encoding='ascii')))
-            article=publish(draft,poster,token,config['cafe'])
+            article=publish(draft,None,token,config['cafe'])
         except Exception as error:
             if isinstance(error, CafeError):
                 print('Naver sanitized error:', str(error), file=sys.stderr, flush=True)
@@ -186,6 +189,8 @@ def main():
         if not any(r['article_id']==article['article_id'] and r['title']==draft['subject'] for r in board(config)):
             raise ValueError('API success recorded, but public board visibility not yet confirmed')
         time.sleep(10)
+    if diagnostic:
+        return  # Never advance collection checkpoints for a partial diagnostic issue.
     for source in issue['source_checks']:
         if source['status']=='checked':
             state['source_checkpoints'][source['url']]=issue['checked_at']
