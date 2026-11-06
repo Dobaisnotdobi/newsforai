@@ -1,0 +1,34 @@
+name: Publish AI newsletters
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - queue.json
+      - .github/workflows/publish.yml
+permissions:
+  contents: write
+concurrency:
+  group: news-board-31813012-17
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test duplicate and delivery protection
+        run: python -m unittest test_publish
+      - name: Validate reviewed issue
+        run: python publish.py --validate
+      - name: Publish sequentially with durable history
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_REFRESH_TOKEN: ${{ secrets.NAVER_REFRESH_TOKEN }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          python publish.py
