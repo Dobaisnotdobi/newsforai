@@ -27,8 +27,5 @@
   "item_date": "official_announcement_date",
   "approval_date": "2026-11-05",
   "require_per_post_confirmation": false,
-  "operational_status": "grouped_newsletters",
-  "replace_articles": {
-    "영상": "11"
-  }
+  "operational_status": "grouped_publication_verified"
 }
