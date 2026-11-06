@@ -13,7 +13,7 @@ from naver_cafe import access_token, publish, transport, CafeError
 
 KST = timezone(timedelta(hours=9))
 HISTORY = Path('state/history.json')
-EMOJI = {'종합':'🤖','영상':'🎬','이미지':'🎨','음악':'🎵','기타':'🛠️'}
+EMOJI = {'종합':'⚡','영상':'▶️','이미지':'✏️','음악':'♫','기타':'⚙️'}
 
 def load(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
@@ -31,7 +31,11 @@ def stamp():
 def save(state):
     HISTORY.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     subprocess.run(['git','add',str(HISTORY)],check=True)
-    subprocess.run(['git','commit','-m','Record newsletter publication state'],check=True)
+    diff = subprocess.run(['git','diff','--cached','--quiet','--',str(HISTORY)])
+    if diff.returncode == 1:
+        subprocess.run(['git','commit','-m','Record newsletter publication state'],check=True)
+    elif diff.returncode != 0:
+        raise ValueError('Cannot inspect durable history changes')
     subprocess.run(['git','push','origin','HEAD:main'],check=True)
 
 def board(config):
@@ -73,7 +77,9 @@ def fresh_items(items,state):
     return result
 
 def render(category,items,date):
-    title=f"[{date:%m.%d}] {EMOJI[category]} {category} AI 뉴스레터 — " + ' · '.join(i['headline'] for i in items)
+    title=f"[{date:%m.%d}] {EMOJI[category]} {category} AI 뉴스레터 — " + items[0]['headline']
+    if len(items)>1:
+        title+=f" 외 {len(items)-1}건"
     body=f'<p>{date:%Y년 %m월 %d일} 발행 | 최근 공식 발표 중 주요 소식</p>'
     for index,item in enumerate(items,1):
         body+=f'<h2>{index}. {html.escape(item["headline"])}</h2>'
