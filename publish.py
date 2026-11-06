@@ -96,9 +96,25 @@ def render(category,items,date):
     body+='<p>성능·효과에 관한 설명은 각 회사의 공식 발표를 요약한 내용입니다.</p>'
     return {'subject':title,'content':body}
 
+def category_items(issue, category, state, config):
+    replacement = config.get('replace_articles', {}).get(category)
+    old = next((p for p in state['publications'] if p['article_id']==replacement and not p.get('superseded_by')), None)
+    filtered = state
+    if old:
+        filtered = {**state, 'announcements':[a for a in state['announcements'] if a['article_url']!=old['url']]}
+    items = fresh_items([x for x in issue['items'] if x['category']==category], filtered)
+    existing = [p for p in state['publications'] if p['issue_id']==issue['id'] and p['category']==category and not p.get('superseded_by')]
+    if items and existing and not old:
+        raise ValueError('This issue/category already has a post; consolidate instead of splitting it')
+    return items, old
+
 def record(state,pending,aid,config,recovered=False):
     url=f"https://cafe.naver.com/f-e/cafes/{config['cafe']['club_id']}/articles/{aid}"
     state['publications'].append({**pending,'article_id':aid,'url':url,'posted_at':None if recovered else stamp(),'confirmed_at':stamp(),'recovered':recovered,'visibility':'public'})
+    if pending.get('replaces_article_id'):
+        for old in state['publications']:
+            if old['article_id']==pending['replaces_article_id']:
+                old['superseded_by']=url
     for item in pending['items']:
         state['announcements'].append({'event_id':item['event_id'],'revision':item['revision'],'sources':item['sources'],'article_source_aliases':[canonical(s['url']) for s in item['sources'] if not s.get('entry')],'article_url':url})
     state['pending']=[]
@@ -134,14 +150,9 @@ def main():
     issue=load('queue.json')
     state=load(HISTORY)
     validate(issue,config)
-    diagnostic = config.get('diagnostic_event_id')
-    if diagnostic:
-        issue['items']=[x for x in issue['items'] if x['event_id']==diagnostic]
-        if len(issue['items']) != 1:
-            raise ValueError('Diagnostic mode requires exactly one selected announcement')
     if '--validate' in sys.argv:
         for cat in config['categories']:
-            items=fresh_items([x for x in issue['items'] if x['category']==cat],state)
+            items, _=category_items(issue,cat,state,config)
             if items:
                 print(render(cat,items,datetime.now(KST))['subject'])
         return
@@ -159,7 +170,7 @@ def main():
         raise ValueError('Untracked board posts: read their contents and record dedup review before publishing')
     token=access_token()
     for cat in config['categories']:
-        items=fresh_items([x for x in issue['items'] if x['category']==cat],state)
+        items, replacement=category_items(issue,cat,state,config)
         if not items:
             continue
         draft=render(cat,items,datetime.now(KST))
@@ -169,6 +180,8 @@ def main():
         if any(r['title']==draft['subject'] for r in current):
             raise ValueError('Duplicate title found; reconcile instead of resending')
         pending={'issue_id':issue['id'],'category':cat,'title':draft['subject'],'items':items,'started_at':stamp(),'body_sha256':hashlib.sha256(draft['content'].encode()).hexdigest()}
+        if replacement:
+            pending['replaces_article_id']=replacement['article_id']
         state['pending']=[pending]
         save(state)  # If durable push fails, never transmit.
         try:
@@ -189,8 +202,6 @@ def main():
         if not any(r['article_id']==article['article_id'] and r['title']==draft['subject'] for r in board(config)):
             raise ValueError('API success recorded, but public board visibility not yet confirmed')
         time.sleep(10)
-    if diagnostic:
-        return  # Never advance collection checkpoints for a partial diagnostic issue.
     for source in issue['source_checks']:
         if source['status']=='checked':
             state['source_checkpoints'][source['url']]=issue['checked_at']
