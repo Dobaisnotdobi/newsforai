@@ -7,6 +7,7 @@ class PublicationTests(unittest.TestCase):
     def setUp(self):
         self.issue=p.load('queue.json')
         self.config=p.load('config.json')
+        self.config.pop('replace_articles', None)
         self.state={'announcements':[],'publications':[],'pending':[],'source_checkpoints':{}}
 
     def test_aliases_drop_tracking(self):
