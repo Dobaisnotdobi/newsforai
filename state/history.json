@@ -2,9 +2,28 @@
   "schema_version": 1,
   "last_successful_collection_at": null,
   "source_checkpoints": {},
-  "announcements": [],
-  "publications": [],
-  "pending": [
+  "announcements": [
+    {
+      "event_id": "higgsfield-shorts-2026-11-03",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield 출시 기록 — 11월 3일 Shorts",
+          "entry": "2026-11-03 Shorts"
+        },
+        {
+          "url": "https://higgsfield.ai/blog/higgsfield-introduces-shorts-studio",
+          "label": "Higgsfield Shorts 상세 안내"
+        }
+      ],
+      "article_source_aliases": [
+        "https://higgsfield.ai/blog/higgsfield-introduces-shorts-studio"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/11"
+    }
+  ],
+  "publications": [
     {
       "issue_id": "2026-11-06-first",
       "category": "영상",
@@ -38,9 +57,16 @@
         }
       ],
       "started_at": "2026-11-06T09:30:15.583303+09:00",
-      "body_sha256": "a76bc5750b3a99efc0defaeb31684d8c2230f0e7f843f835ea5165c763013c4e"
+      "body_sha256": "a76bc5750b3a99efc0defaeb31684d8c2230f0e7f843f835ea5165c763013c4e",
+      "article_id": "11",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/11",
+      "posted_at": "2026-11-06T09:30:17.912261+09:00",
+      "confirmed_at": "2026-11-06T09:30:17.912276+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
