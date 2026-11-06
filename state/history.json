@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
   "last_successful_collection_at": null,
-  "source_checkpoints": {},
+  "source_checkpoints": {
+    "https://openai.com/news/": "2026-11-06T09:10:50+09:00",
+    "https://www.anthropic.com/news": "2026-11-06T09:10:50+09:00",
+    "https://deepmind.google/blog/": "2026-11-06T09:10:50+09:00",
+    "https://www.microsoft.com/en-us/copilot/blog/": "2026-11-06T09:10:50+09:00",
+    "https://ai.meta.com/blog/": "2026-11-06T09:10:50+09:00",
+    "https://higgsfield.ai/creator-hub/changelog": "2026-11-06T09:10:50+09:00",
+    "https://runway.com/changelog": "2026-11-06T09:10:50+09:00",
+    "https://suno.com/blog": "2026-11-06T09:10:50+09:00",
+    "https://www.udio.com/blog": "2026-11-06T09:10:50+09:00",
+    "https://elevenlabs.io/blog": "2026-11-06T09:10:50+09:00",
+    "https://cursor.com/changelog": "2026-11-06T09:10:50+09:00"
+  },
   "announcements": [
     {
       "event_id": "higgsfield-shorts-2026-11-03",
@@ -649,5 +661,6 @@
         "body_sha256": "6e2e0705339a14b17273603969bb17228d9dd254a0a6acae115f640b8ba709d8"
       }
     }
-  ]
+  ],
+  "last_processed_issue": "2026-11-06-first"
 }
