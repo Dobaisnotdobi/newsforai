@@ -67,6 +67,20 @@
         "https://openai.com/index/introducing-images-2-6"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/13"
+    },
+    {
+      "event_id": "suno-midi-create-2026-11-04",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://suno.com/blog/MIDI-in-create",
+          "label": "Suno — Start Songs with MIDI"
+        }
+      ],
+      "article_source_aliases": [
+        "https://suno.com/blog/MIDI-in-create"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/14"
     }
   ],
   "publications": [
@@ -210,9 +224,7 @@
       "confirmed_at": "2026-11-06T09:36:01.898214+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-06-first",
       "category": "음악",
@@ -241,9 +253,16 @@
         }
       ],
       "started_at": "2026-11-06T09:36:19.174861+09:00",
-      "body_sha256": "ebf2eb0bf86550941297fe97cc346c7caa08c11f3f8c327c2130e7b88911c7f7"
+      "body_sha256": "ebf2eb0bf86550941297fe97cc346c7caa08c11f3f8c327c2130e7b88911c7f7",
+      "article_id": "14",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/14",
+      "posted_at": "2026-11-06T09:36:21.678607+09:00",
+      "confirmed_at": "2026-11-06T09:36:21.678624+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
