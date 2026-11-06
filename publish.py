@@ -82,17 +82,17 @@ def render(category,items,date):
         title+=f" 외 {len(items)-1}건"
     body=f'<p>{date:%Y년 %m월 %d일} 발행 | 최근 공식 발표 중 주요 소식</p>'
     for index,item in enumerate(items,1):
-        body+=f'<h2>{index}. {html.escape(item["headline"])}</h2>'
-        body+=f'<p>공식 발표일: {html.escape(item["announced_on"])}</p><ul>'
+        body+=f'<h2>📌 {index}. {html.escape(item["headline"])}</h2>'
+        body+=f'<p>🗓️ 공식 발표일: {html.escape(item["announced_on"])}</p><ul>'
         body+=''.join('<li>'+html.escape(b)+'</li>' for b in item['bullets'])+'</ul>'
-        body+='<p><strong>이용 조건</strong><br>'+html.escape(item['conditions'])+'</p>'
+        body+='<p><strong>👥 이용 조건</strong><br>'+html.escape(item['conditions'])+'</p>'
         if item.get('outlook'):
-            body+='<p><strong>회사 발표의 향후 계획</strong><br>'+html.escape(item['outlook'])+'</p>'
+            body+='<p><strong>🔭 회사 발표의 향후 계획</strong><br>'+html.escape(item['outlook'])+'</p>'
         if item.get('change'):
-            body+='<p><strong>후속 변경</strong><br>'+html.escape(item['change'])+'</p>'
+            body+='<p><strong>🔄 후속 변경</strong><br>'+html.escape(item['change'])+'</p>'
             body+='<p>이전 글: '+html.escape(item['previous_url'])+'</p>'
         for s in item['sources']:
-            body+='<p>공식 원문: '+html.escape(s['label'])+' — '+html.escape(s['url'])+'</p>'
+            body+='<p>🔗 공식 원문: '+html.escape(s['label'])+' — '+html.escape(s['url'])+'</p>'
     body+='<p>성능·효과에 관한 설명은 각 회사의 공식 발표를 요약한 내용입니다.</p>'
     return {'subject':title,'content':body}
 
