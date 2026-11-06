@@ -77,7 +77,7 @@ def fresh_items(items,state):
     return result
 
 def render(category,items,date):
-    title=f"[{date:%m.%d}] {EMOJI[category]} {category} AI 뉴스레터 — " + items[0]['headline']
+    title=f"{EMOJI[category]} {category} AI 뉴스레터 — " + items[0]['headline']
     if len(items)>1:
         title+=f" 외 {len(items)-1}건"
     body=f'<p>{date:%Y년 %m월 %d일} 발행 | 최근 공식 발표 중 주요 소식</p>'
