@@ -21,6 +21,38 @@
         "https://higgsfield.ai/blog/higgsfield-introduces-shorts-studio"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/11"
+    },
+    {
+      "event_id": "higgsfield-shorts-2026-11-03",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield 출시 기록 — 11월 3일 Shorts",
+          "entry": "2026-11-03 Shorts"
+        },
+        {
+          "url": "https://higgsfield.ai/blog/higgsfield-introduces-shorts-studio",
+          "label": "Higgsfield Shorts 상세 안내"
+        }
+      ],
+      "article_source_aliases": [
+        "https://higgsfield.ai/blog/higgsfield-introduces-shorts-studio"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/12"
+    },
+    {
+      "event_id": "higgsfield-intone-2026-10-30",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield 출시 기록 — 10월 30일 Intone",
+          "entry": "2026-10-30 Intone"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/12"
     }
   ],
   "publications": [
@@ -63,10 +95,9 @@
       "posted_at": "2026-11-06T09:30:17.912261+09:00",
       "confirmed_at": "2026-11-06T09:30:17.912276+09:00",
       "recovered": false,
-      "visibility": "public"
-    }
-  ],
-  "pending": [
+      "visibility": "public",
+      "superseded_by": "https://cafe.naver.com/f-e/cafes/31813012/articles/12"
+    },
     {
       "issue_id": "2026-11-06-first",
       "category": "영상",
@@ -122,9 +153,16 @@
       ],
       "started_at": "2026-11-06T09:35:40.050825+09:00",
       "body_sha256": "23f6a9e24d54d9970726695a8430c5eed9b6af77da88032ac93eae3448517f10",
-      "replaces_article_id": "11"
+      "replaces_article_id": "11",
+      "article_id": "12",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/12",
+      "posted_at": "2026-11-06T09:35:42.766766+09:00",
+      "confirmed_at": "2026-11-06T09:35:42.766782+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
