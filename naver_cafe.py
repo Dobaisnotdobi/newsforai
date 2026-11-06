@@ -103,7 +103,15 @@ def publish(draft, poster, token, config):
     club, menu = str(config['club_id']), str(config['menu_id'])
     if not club.isdigit() or not menu.isdigit():
         raise CafeError('Invalid cafe or board ID.')
-    body, content_type = multipart(draft, poster)
+    if poster:
+        body, content_type = multipart(draft, poster)
+    else:
+        # Naver's text-only endpoint expects UTF-8 percent encoding followed
+        # by form encoding (the official Java sample calls this MS949).
+        body = urlencode({'subject': quote_plus(draft['subject']),
+                          'content': quote_plus(draft['content']),
+                          'openyn': 'true', 'searchopen': 'true', 'ccl': 'false'}).encode('ascii')
+        content_type = 'application/x-www-form-urlencoded'
     result = json.loads(transport(f'https://openapi.naver.com/v1/cafe/{club}/menu/{menu}/articles', body,
                                   {'Authorization': 'Bearer ' + token, 'Content-Type': content_type}))
     message = result.get('message', result)
