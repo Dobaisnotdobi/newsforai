@@ -53,6 +53,20 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/12"
+    },
+    {
+      "event_id": "openai-images-2-6",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "label": "OpenAI — Introducing Images 2.6"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-images-2-6"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/13"
     }
   ],
   "publications": [
@@ -160,9 +174,7 @@
       "confirmed_at": "2026-11-06T09:35:42.766782+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-06-first",
       "category": "이미지",
@@ -191,9 +203,16 @@
         }
       ],
       "started_at": "2026-11-06T09:35:59.548142+09:00",
-      "body_sha256": "3a7240aa6373f4774fb163937584c328632f4e1b08a6255c39642ad951794642"
+      "body_sha256": "3a7240aa6373f4774fb163937584c328632f4e1b08a6255c39642ad951794642",
+      "article_id": "13",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/13",
+      "posted_at": "2026-11-06T09:36:01.898198+09:00",
+      "confirmed_at": "2026-11-06T09:36:01.898214+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
