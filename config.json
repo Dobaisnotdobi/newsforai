@@ -27,5 +27,6 @@
   "item_date": "official_announcement_date",
   "approval_date": "2026-11-05",
   "require_per_post_confirmation": false,
-  "operational_status": "ready_for_first_publication"
+  "operational_status": "single_announcement_diagnosis",
+  "diagnostic_event_id": "higgsfield-shorts-2026-11-03"
 }
