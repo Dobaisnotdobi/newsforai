@@ -81,6 +81,34 @@
         "https://suno.com/blog/MIDI-in-create"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/14"
+    },
+    {
+      "event_id": "cursor-build-live-apps-2026-11-05",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://cursor.com/changelog/build-live-apps",
+          "label": "Cursor — Build Live Apps in Cursor"
+        }
+      ],
+      "article_source_aliases": [
+        "https://cursor.com/changelog/build-live-apps"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/15"
+    },
+    {
+      "event_id": "openai-gpt-6-cyber",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "label": "OpenAI — GPT-6 Cyber 발표"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-gpt-6-cyber"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/15"
     }
   ],
   "publications": [
@@ -260,9 +288,7 @@
       "confirmed_at": "2026-11-06T09:36:21.678624+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-06-first",
       "category": "기타",
@@ -312,9 +338,16 @@
         }
       ],
       "started_at": "2026-11-06T09:36:38.583143+09:00",
-      "body_sha256": "8a6772e85dcd52a092a88b491689c6480e819d3f28de8e7804e6a4a55e2477bb"
+      "body_sha256": "8a6772e85dcd52a092a88b491689c6480e819d3f28de8e7804e6a4a55e2477bb",
+      "article_id": "15",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/15",
+      "posted_at": "2026-11-06T09:36:40.906240+09:00",
+      "confirmed_at": "2026-11-06T09:36:40.906259+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
