@@ -1,5 +1,6 @@
 """Publish an agent-reviewed issue with durable, conservative duplicate protection."""
 import hashlib
+import base64
 import html
 import json
 import re
@@ -13,7 +14,7 @@ from naver_cafe import access_token, publish, transport, CafeError
 
 KST = timezone(timedelta(hours=9))
 HISTORY = Path('state/history.json')
-EMOJI = {'종합':'⚡','영상':'▶️','이미지':'✏️','음악':'♫','기타':'⚙️'}
+EMOJI = {'종합':'🤖','영상':'🎬','이미지':'🎨','음악':'🎵','기타':'🛠️'}
 
 def load(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
@@ -167,7 +168,8 @@ def main():
         state['pending']=[pending]
         save(state)  # If durable push fails, never transmit.
         try:
-            article=publish(draft,None,token,config['cafe'])
+            poster=('newsletter.png','image/png',base64.b64decode(Path('banner.b64').read_text(encoding='ascii')))
+            article=publish(draft,poster,token,config['cafe'])
         except Exception as error:
             if isinstance(error, CafeError):
                 print('Naver sanitized error:', str(error), file=sys.stderr, flush=True)
