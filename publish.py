@@ -9,7 +9,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
-from naver_cafe import access_token, publish, transport
+from naver_cafe import access_token, publish, transport, CafeError
 
 KST = timezone(timedelta(hours=9))
 HISTORY = Path('state/history.json')
@@ -162,7 +162,9 @@ def main():
         save(state)  # If durable push fails, never transmit.
         try:
             article=publish(draft,None,token,config['cafe'])
-        except Exception:
+        except Exception as error:
+            if isinstance(error, CafeError):
+                print('Naver sanitized error:', str(error), file=sys.stderr, flush=True)
             # Public list can lag; inspect once now and never blindly retry.
             matches=[r for r in board(config) if r['title']==draft['subject']]
             if len(matches)==1:
