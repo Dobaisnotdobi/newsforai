@@ -212,7 +212,38 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-06-first",
+      "category": "음악",
+      "title": "[11.06] 🎵 음악 AI 뉴스레터 — Suno, MIDI 파일로 곡 만들기 지원",
+      "items": [
+        {
+          "event_id": "suno-midi-create-2026-11-04",
+          "revision": "launch",
+          "category": "음악",
+          "announced_on": "2026-11-04",
+          "headline": "Suno, MIDI 파일로 곡 만들기 지원",
+          "bullets": [
+            "Create 페이지에 MIDI 파일을 끌어 놓거나 추가 메뉴에서 MIDI를 선택해 작곡을 시작할 수 있습니다.",
+            "음표와 타이밍 정보를 바탕으로 원곡을 따르거나 모티프를 확장하도록 지시할 수 있습니다.",
+            "기존 멜로디를 다른 악기 편성으로 바꾸는 등 자연어로 편곡 방향을 지정할 수 있습니다."
+          ],
+          "conditions": "발표 시점부터 Pro·Premier 구독자에게 제공됩니다. 출시 시에는 Simple Create 모드와 v6-wild를 사용합니다. 제공 지역과 별도 추가 요금은 해당 발표에 명시되지 않았습니다.",
+          "outlook": "Suno는 MIDI 기능을 점진적으로 확대할 계획이라고 밝혔습니다. 추가 기능과 일정은 확정해 안내하지 않았습니다.",
+          "evidence": "Nov 4 Start Songs with MIDI; final paragraph specifies Pro/Premier, Simple Create, v6-wild.",
+          "sources": [
+            {
+              "url": "https://suno.com/blog/MIDI-in-create",
+              "label": "Suno — Start Songs with MIDI"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-06T09:36:19.174861+09:00",
+      "body_sha256": "ebf2eb0bf86550941297fe97cc346c7caa08c11f3f8c327c2130e7b88911c7f7"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
