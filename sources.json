@@ -1,0 +1,55 @@
+{
+  "allowed_domains": [
+    "openai.com",
+    "www.anthropic.com",
+    "deepmind.google",
+    "blog.google",
+    "www.microsoft.com",
+    "blogs.microsoft.com",
+    "ai.meta.com",
+    "about.fb.com",
+    "higgsfield.ai",
+    "runway.com",
+    "runwayml.com",
+    "lumalabs.ai",
+    "pika.art",
+    "www.midjourney.com",
+    "suno.com",
+    "www.udio.com",
+    "elevenlabs.io",
+    "cursor.com"
+  ],
+  "indexes": [
+    "https://openai.com/news/",
+    "https://www.anthropic.com/news",
+    "https://deepmind.google/blog/",
+    "https://www.microsoft.com/en-us/copilot/blog/",
+    "https://ai.meta.com/blog/",
+    "https://higgsfield.ai/creator-hub/changelog",
+    "https://runway.com/changelog",
+    "https://suno.com/blog",
+    "https://www.udio.com/blog",
+    "https://elevenlabs.io/blog",
+    "https://cursor.com/changelog",
+    "https://lumalabs.ai/news",
+    "https://www.midjourney.com/updates"
+  ],
+  "collection_method": "Scheduled Codex agent opens official index and original article; reviews dates, importance, alias event IDs and evidence; writes queue.json. Failed sources keep their prior checkpoints.",
+  "additional_candidates": [
+    "Kling AI",
+    "Adobe Firefly",
+    "Ideogram",
+    "Black Forest Labs",
+    "Perplexity",
+    "GitHub Copilot",
+    "Replit",
+    "Lovable",
+    "Bolt",
+    "Canva",
+    "Notion",
+    "HeyGen",
+    "Synthesia"
+  ],
+  "date_policy": "Use official date; when time unavailable include boundary calendar date and deduplicate against history."
+}
+
