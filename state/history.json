@@ -262,7 +262,59 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-06-first",
+      "category": "기타",
+      "title": "[11.06] 🛠️ 기타 AI 뉴스레터 — Cursor, 앱 제작부터 배포까지 지원 외 1건",
+      "items": [
+        {
+          "event_id": "cursor-build-live-apps-2026-11-05",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-05",
+          "headline": "Cursor, 앱 제작부터 배포까지 지원",
+          "bullets": [
+            "클라우드 에이전트에 앱 제작을 요청하면 웹 앱과 호스팅을 준비합니다.",
+            "필요한 경우 Postgres 데이터베이스와 Cursor SSO 인증을 설정합니다.",
+            "보안 검사를 통과하고 사용자가 명시적으로 게시해야 앱이 공개됩니다.",
+            "팀에서는 사람·그룹·팀 단위로 공유하며, 개인 요금제에서는 공개 공유도 지원합니다."
+          ],
+          "conditions": "클라우드 에이전트가 활성화된 모든 유료 요금제에서 제공됩니다. Cursor를 업데이트해 사용할 수 있으며 지역별 제공 조건과 별도 비용은 해당 발표에 명시되지 않았습니다.",
+          "evidence": "Nov 5 official changelog; availability all paid plans with cloud agents enabled.",
+          "sources": [
+            {
+              "url": "https://cursor.com/changelog/build-live-apps",
+              "label": "Cursor — Build Live Apps in Cursor"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-gpt-6-cyber",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-05",
+          "headline": "OpenAI, 보안 특화 GPT-6 Cyber 공개",
+          "bullets": [
+            "취약점 탐색·검증과 수정 지원을 위한 보안 연구 모델을 발표했습니다.",
+            "연구자가 정한 허용 범위를 따르도록 학습했다고 설명했습니다.",
+            "초기에는 승인된 일부 Daybreak Red 고객이 API·Codex에서 이용할 수 있습니다."
+          ],
+          "conditions": "일반 사용자 전체 공개가 아닙니다. 초기 접근 대상은 승인된 일부 Daybreak Red 고객이며, 제공 지역과 구체적인 요금은 해당 발표에 명시되지 않았습니다.",
+          "outlook": "OpenAI는 모든 Daybreak Red 고객으로 접근을 점진적으로 확대할 계획이라고 밝혔습니다. 구체적인 완료일은 제시하지 않았습니다.",
+          "evidence": "Nov 5 release; Expanding access section specifies selected approved customers and future rollout.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+              "label": "OpenAI — GPT-6 Cyber 발표"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-06T09:36:38.583143+09:00",
+      "body_sha256": "8a6772e85dcd52a092a88b491689c6480e819d3f28de8e7804e6a4a55e2477bb"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
