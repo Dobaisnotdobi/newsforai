@@ -209,6 +209,19 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/24"
+    },
+    {
+      "event_id": "higgsfield-seedream-5-5-2026-11-09",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 9일 Seedream 5.5",
+          "entry": "2026-11-09 Seedream 5.5"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/25"
     }
   ],
   "publications": [
@@ -604,9 +617,7 @@
       "confirmed_at": "2026-11-12T11:08:39.802110+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-12-weekly",
       "category": "이미지",
@@ -635,9 +646,16 @@
         }
       ],
       "started_at": "2026-11-12T11:08:56.756762+09:00",
-      "body_sha256": "2a65e911e34ad51c73e8d7ac89a9f23fd0b0f1db6f59eccd638439bf4fd83d41"
+      "body_sha256": "2a65e911e34ad51c73e8d7ac89a9f23fd0b0f1db6f59eccd638439bf4fd83d41",
+      "article_id": "25",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/25",
+      "posted_at": "2026-11-12T11:08:58.919530+09:00",
+      "confirmed_at": "2026-11-12T11:08:58.919546+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
