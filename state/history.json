@@ -359,7 +359,125 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-12-weekly",
+      "category": "종합",
+      "title": "🤖 종합 AI 뉴스레터 — Claude Fable·Mythos 5.2 공개 외 4건",
+      "items": [
+        {
+          "event_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-09",
+          "headline": "Claude Fable·Mythos 5.2 공개",
+          "bullets": [
+            "Anthropic은 코딩·추론·이미지 해석을 개선한 Fable 5.2와 Mythos 5.2를 발표했습니다.",
+            "두 제품은 같은 기반 모델을 사용하며, Fable에는 사이버·생물학 분야의 강화된 보호 조치가 적용됩니다.",
+            "회사는 5.1 대비 생성 속도가 최대 30% 빨라졌다고 설명했습니다.",
+            "표준 API 요금은 100만 토큰당 입력 8달러·출력 40달러이며, 고속 모드는 입력 16달러·출력 80달러입니다."
+          ],
+          "conditions": "Fable 5.2는 Claude 및 AWS·Google Cloud·Microsoft Azure 등에서 제공합니다. Mythos 5.2는 승인된 사이버·생명과학 검증 프로그램 참여 조직으로 접근이 제한됩니다. Higgsfield도 같은 날 Supercomputer에 Fable 5.2를 추가했습니다.",
+          "evidence": "Official Nov 9 announcement: common model, differentiated safeguards, speed claim, pricing and platform access. Nov 11 benchmark correction is not used in this summary.",
+          "sources": [
+            {
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+              "label": "Anthropic — Claude Fable and Mythos 5.2"
+            },
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — Fable 5.2 도입",
+              "entry": "2026-11-09 Fable 5.2"
+            }
+          ]
+        },
+        {
+          "event_id": "google-gemini-4-carbon-expanded-access-2026-11-10",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-10",
+          "headline": "Gemini 4 Carbon, 개발자·기업·개인으로 제공 확대",
+          "bullets": [
+            "Google은 일부 사이버 방어 조직에 먼저 제공했던 Gemini 4 Carbon의 이용 범위를 확대했습니다.",
+            "복잡하고 여러 단계를 거치는 지식 작업·코딩·과학 연구를 주요 용도로 제시했습니다.",
+            "개발자는 유료 Gemini API와 AI Studio·Android Studio에서 이용할 수 있습니다.",
+            "과학자를 대상으로 Antigravity 상위 등급의 6개월 무료 이용 신청을 받습니다."
+          ],
+          "conditions": "개인 이용은 Google AI Ultra의 Gemini 앱·검색 AI Mode 등에서 제공하며, 기업용 경로도 별도로 안내했습니다. 과학자 지원은 신청 자격과 수용 규모에 따른 선발 방식으로, 모든 연구자에게 자동 제공되는 혜택은 아닙니다. 지역별 제공 여부와 구체적인 API 요금은 이 발표에 명시되지 않았습니다.",
+          "evidence": "Nov 10 original Availability and scientists sections; distinguishes expanded access from Oct 28 initial Fairwind release; paid API, Ultra and selective science program.",
+          "sources": [
+            {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+              "label": "Google — Gemini 4 Carbon now available"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-businesses-chatgpt-2026-11-10",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-10",
+          "headline": "ChatGPT, 기업 정보 관리·비즈니스 에이전트 베타",
+          "bullets": [
+            "Business Hub에서 사업체 소유권을 확인하고 기업 정보·상품 피드·가격·재고 정보를 관리할 수 있습니다.",
+            "기업은 언급 현황과 웹사이트 클릭 등 집계 지표를 확인할 수 있으며, 개별 이용자의 대화는 공유되지 않습니다.",
+            "기업 전용 Business Agent와의 대화는 ChatGPT의 독립적인 답변 및 광고 영역과 구분해 표시합니다."
+          ],
+          "conditions": "베타 기능입니다. 사업체 등록은 ChatGPT 제공 지역의 적격 기업을 대상으로 하지만, Business Agent는 현재 미국의 적격 전자상거래·온라인 서비스 기업으로 제한됩니다. 집계 지표에는 개인정보 보호를 위한 최소 기준이 적용됩니다.",
+          "evidence": "Nov 10 original: beta Business Hub, aggregate insights without individual chats, separate agent conversations; US eligibility applies to Business Agents, not all business claims.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+              "label": "OpenAI — Introducing businesses in ChatGPT"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-09",
+          "headline": "ChatGPT Enterprise, AWS Marketplace에서 구매",
+          "bullets": [
+            "ChatGPT Enterprise를 기존 AWS 구매·청구 절차로 도입하고 관리할 수 있습니다.",
+            "자격을 충족하는 구매 금액은 AWS 사용 약정에 반영할 수 있습니다.",
+            "OpenAI 직접 구매와 동일한 모델·기능을 제공하고, 신규 기능도 같은 시점에 출시한다고 안내했습니다."
+          ],
+          "conditions": "대상은 ChatGPT Enterprise를 도입하는 기업이며, 적격 의료·금융 서비스 조직도 포함합니다. AWS 약정 적용 여부는 OpenAI 또는 AWS 담당자에게 확인해야 합니다. 발표에는 별도 정액 가격이나 국가별 제공 목록이 없습니다.",
+          "evidence": "Nov 9 original procurement announcement: AWS billing and eligible commitments, same models/features/release timing; eligibility is conditional.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+              "label": "OpenAI — ChatGPT Enterprise on AWS Marketplace"
+            }
+          ]
+        },
+        {
+          "event_id": "meta-muse-spaces-2026-11-06",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-06",
+          "headline": "Meta Muse, 말로 만드는 맞춤형 공간 Spaces",
+          "bullets": [
+            "Muse에 원하는 기능을 설명하면 일정판·선물 관리·게임 등 개인용 공간을 만들 수 있습니다.",
+            "대화로 디자인과 동작을 수정하고, 사이드바나 주요 탭에 배치할 수 있습니다.",
+            "연결한 앱의 정보를 반영해 공간을 갱신하고, 표시할 시점도 예약할 수 있습니다."
+          ],
+          "conditions": "발표 당일부터 Muse가 제공되는 모든 지역에서 Spaces를 사용할 수 있다고 안내했습니다. 원문에는 국가별 목록이나 별도 요금이 명시되지 않았습니다.",
+          "evidence": "Official Nov 6 date; date-only boundary included per sources date_policy and absent from history. Takeaways, personalization and availability paragraphs verified. Supplemental official newsroom checked alongside Meta AI blog.",
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+              "label": "Meta — Design the Muse App, Just for You"
+            }
+          ],
+          "outlook": "Meta는 다른 사람과 공간을 공유하는 기능을 검토 중이라고 밝혔습니다. 출시일이 확정된 기능은 아닙니다."
+        }
+      ],
+      "started_at": "2026-11-12T11:08:17.416094+09:00",
+      "body_sha256": "c28c4e1dc6815707adb849cd1637d30e09803009b4c8ba398794bcaa6c74a432"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
