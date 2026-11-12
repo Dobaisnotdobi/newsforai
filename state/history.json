@@ -557,7 +557,38 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-12-weekly",
+      "category": "영상",
+      "title": "🎬 영상 AI 뉴스레터 — Higgsfield Ads Studio, 대화로 영상 광고 제작",
+      "items": [
+        {
+          "event_id": "higgsfield-ads-studio-video-2026-11-09",
+          "revision": "launch",
+          "category": "영상",
+          "announced_on": "2026-11-09",
+          "headline": "Higgsfield Ads Studio, 대화로 영상 광고 제작",
+          "bullets": [
+            "아이디어나 대본을 입력해 영상 광고를 제작합니다.",
+            "마이크로드라마·카툰·시네마틱·클레이메이션 스타일을 선택합니다.",
+            "웹사이트로 브랜드 키트를 만들고, 배우 라이브러리나 AI Influencer를 활용합니다."
+          ],
+          "conditions": "Ads Studio에서 사용합니다. 최대 길이·구독 등급·지역·요금은 이 출시 기록에 명시되지 않았습니다.",
+          "evidence": "Nov 9 Ads Studio entry: video ads including long ones, styles, brand kit and actor choices; no numerical duration or pricing provided.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 9일 Ads Studio",
+              "entry": "2026-11-09 Ads Studio now creates video ads"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-12T11:08:37.428691+09:00",
+      "body_sha256": "e4dbcfd287972311faec3d10f09045a5ed780f5d51c762cb245e25f2ba8055ea"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
