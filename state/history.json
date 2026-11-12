@@ -606,7 +606,38 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-12-weekly",
+      "category": "이미지",
+      "title": "🎨 이미지 AI 뉴스레터 — Higgsfield, 투명 PNG 지원 Seedream 5.5 도입",
+      "items": [
+        {
+          "event_id": "higgsfield-seedream-5-5-2026-11-09",
+          "revision": "launch",
+          "category": "이미지",
+          "announced_on": "2026-11-09",
+          "headline": "Higgsfield, 투명 PNG 지원 Seedream 5.5 도입",
+          "bullets": [
+            "배경을 투명하게 설정해 PNG 이미지를 생성합니다.",
+            "ByteDance는 연속 편집 시 수정하지 않은 부분의 보존을 개선했다고 설명했습니다.",
+            "1K·1.5K·2K 해상도와 화면 비율 9종을 제공합니다."
+          ],
+          "conditions": "Higgsfield 도입 발표 기준입니다. 미국을 제외한 지역에서 제공하며, 구독 등급·요금은 명시하지 않았습니다.",
+          "evidence": "Nov 9 integration entry; transparent PNG, sequential edit claim attributed to ByteDance, resolutions/ratios and explicit US exclusion.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 9일 Seedream 5.5",
+              "entry": "2026-11-09 Seedream 5.5"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-12T11:08:56.756762+09:00",
+      "body_sha256": "2a65e911e34ad51c73e8d7ac89a9f23fd0b0f1db6f59eccd638439bf4fd83d41"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
