@@ -121,6 +121,81 @@
         "https://openai.com/index/introducing-gpt-6-cyber"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/15"
+    },
+    {
+      "event_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "label": "Anthropic — Claude Fable and Mythos 5.2"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — Fable 5.2 도입",
+          "entry": "2026-11-09 Fable 5.2"
+        }
+      ],
+      "article_source_aliases": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
+    },
+    {
+      "event_id": "google-gemini-4-carbon-expanded-access-2026-11-10",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "label": "Google — Gemini 4 Carbon now available"
+        }
+      ],
+      "article_source_aliases": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
+    },
+    {
+      "event_id": "openai-businesses-chatgpt-2026-11-10",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "label": "OpenAI — Introducing businesses in ChatGPT"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-businesses-chatgpt"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
+    },
+    {
+      "event_id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+          "label": "OpenAI — ChatGPT Enterprise on AWS Marketplace"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
+    },
+    {
+      "event_id": "meta-muse-spaces-2026-11-06",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+          "label": "Meta — Design the Muse App, Just for You"
+        }
+      ],
+      "article_source_aliases": [
+        "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
     }
   ],
   "publications": [
@@ -357,9 +432,7 @@
       "confirmed_at": "2026-11-06T09:36:40.906259+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-12-weekly",
       "category": "종합",
@@ -475,9 +548,16 @@
         }
       ],
       "started_at": "2026-11-12T11:08:17.416094+09:00",
-      "body_sha256": "c28c4e1dc6815707adb849cd1637d30e09803009b4c8ba398794bcaa6c74a432"
+      "body_sha256": "c28c4e1dc6815707adb849cd1637d30e09803009b4c8ba398794bcaa6c74a432",
+      "article_id": "23",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23",
+      "posted_at": "2026-11-12T11:08:20.423763+09:00",
+      "confirmed_at": "2026-11-12T11:08:20.423779+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
