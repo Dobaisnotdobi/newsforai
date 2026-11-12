@@ -2,17 +2,18 @@
   "schema_version": 1,
   "last_successful_collection_at": null,
   "source_checkpoints": {
-    "https://openai.com/news/": "2026-11-06T09:10:50+09:00",
-    "https://www.anthropic.com/news": "2026-11-06T09:10:50+09:00",
-    "https://deepmind.google/blog/": "2026-11-06T09:10:50+09:00",
-    "https://www.microsoft.com/en-us/copilot/blog/": "2026-11-06T09:10:50+09:00",
-    "https://ai.meta.com/blog/": "2026-11-06T09:10:50+09:00",
-    "https://higgsfield.ai/creator-hub/changelog": "2026-11-06T09:10:50+09:00",
-    "https://runway.com/changelog": "2026-11-06T09:10:50+09:00",
-    "https://suno.com/blog": "2026-11-06T09:10:50+09:00",
-    "https://www.udio.com/blog": "2026-11-06T09:10:50+09:00",
-    "https://elevenlabs.io/blog": "2026-11-06T09:10:50+09:00",
-    "https://cursor.com/changelog": "2026-11-06T09:10:50+09:00"
+    "https://openai.com/news/": "2026-11-12T11:07:40+09:00",
+    "https://www.anthropic.com/news": "2026-11-12T11:07:40+09:00",
+    "https://deepmind.google/blog/": "2026-11-12T11:07:40+09:00",
+    "https://www.microsoft.com/en-us/copilot/blog/": "2026-11-12T11:07:40+09:00",
+    "https://ai.meta.com/blog/": "2026-11-12T11:07:40+09:00",
+    "https://higgsfield.ai/creator-hub/changelog": "2026-11-12T11:07:40+09:00",
+    "https://runway.com/changelog": "2026-11-12T11:07:40+09:00",
+    "https://suno.com/blog": "2026-11-12T11:07:40+09:00",
+    "https://www.udio.com/blog": "2026-11-12T11:07:40+09:00",
+    "https://elevenlabs.io/blog": "2026-11-12T11:07:40+09:00",
+    "https://cursor.com/changelog": "2026-11-12T11:07:40+09:00",
+    "https://lumalabs.ai/news": "2026-11-12T11:07:40+09:00"
   },
   "announcements": [
     {
@@ -1146,5 +1147,5 @@
       }
     }
   ],
-  "last_processed_issue": "2026-11-06-first"
+  "last_processed_issue": "2026-11-12-weekly"
 }
