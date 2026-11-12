@@ -196,6 +196,19 @@
         "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/23"
+    },
+    {
+      "event_id": "higgsfield-ads-studio-video-2026-11-09",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 9일 Ads Studio",
+          "entry": "2026-11-09 Ads Studio now creates video ads"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/24"
     }
   ],
   "publications": [
@@ -555,9 +568,7 @@
       "confirmed_at": "2026-11-12T11:08:20.423779+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-12-weekly",
       "category": "영상",
@@ -586,9 +597,16 @@
         }
       ],
       "started_at": "2026-11-12T11:08:37.428691+09:00",
-      "body_sha256": "e4dbcfd287972311faec3d10f09045a5ed780f5d51c762cb245e25f2ba8055ea"
+      "body_sha256": "e4dbcfd287972311faec3d10f09045a5ed780f5d51c762cb245e25f2ba8055ea",
+      "article_id": "24",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/24",
+      "posted_at": "2026-11-12T11:08:39.802094+09:00",
+      "confirmed_at": "2026-11-12T11:08:39.802110+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
