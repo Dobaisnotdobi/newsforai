@@ -222,6 +222,75 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/25"
+    },
+    {
+      "event_id": "cursor-voice-chat-2026-11-06",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://cursor.com/changelog/voice-chat",
+          "label": "Cursor — Voice Chat"
+        }
+      ],
+      "article_source_aliases": [
+        "https://cursor.com/changelog/voice-chat"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
+    },
+    {
+      "event_id": "elevenlabs-elevenai-early-access-2026-11-11",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://elevenlabs.io/blog/nyc-summit",
+          "label": "ElevenLabs — NYC Summit 발표"
+        }
+      ],
+      "article_source_aliases": [
+        "https://elevenlabs.io/blog/nyc-summit"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
+    },
+    {
+      "event_id": "google-alphagenome-2-2026-11-11",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "label": "Google DeepMind — AlphaGenome 2"
+        }
+      ],
+      "article_source_aliases": [
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
+    },
+    {
+      "event_id": "google-gemini-robotics-2-5-2026-11-10",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "label": "Google DeepMind — Gemini Robotics 2.5"
+        }
+      ],
+      "article_source_aliases": [
+        "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
+    },
+    {
+      "event_id": "higgsfield-inkling-2-small-2026-11-06",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 6일 Inkling 2 Small",
+          "entry": "2026-11-06 Inkling 2 Small"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
     }
   ],
   "publications": [
@@ -653,9 +722,7 @@
       "confirmed_at": "2026-11-12T11:08:58.919546+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-12-weekly",
       "category": "기타",
@@ -767,9 +834,16 @@
         }
       ],
       "started_at": "2026-11-12T11:09:15.855829+09:00",
-      "body_sha256": "1bb1358180139ca3797c85acf452b2aea026fbc4cc0dc1fadc4f597b21b62d4d"
+      "body_sha256": "1bb1358180139ca3797c85acf452b2aea026fbc4cc0dc1fadc4f597b21b62d4d",
+      "article_id": "26",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26",
+      "posted_at": "2026-11-12T11:09:18.397209+09:00",
+      "confirmed_at": "2026-11-12T11:09:18.397252+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
