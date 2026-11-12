@@ -655,7 +655,121 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-12-weekly",
+      "category": "기타",
+      "title": "🛠️ 기타 AI 뉴스레터 — Cursor, 코딩 에이전트와 실시간 음성 대화 외 4건",
+      "items": [
+        {
+          "event_id": "cursor-voice-chat-2026-11-06",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-06",
+          "headline": "Cursor, 코딩 에이전트와 실시간 음성 대화",
+          "bullets": [
+            "에이전트가 코드를 작업하는 동안 음성으로 대화하고 진행 상황을 들을 수 있습니다.",
+            "단순 받아쓰기를 넘어 질문과 답변을 주고받는 실시간 통화를 지원합니다.",
+            "Agents Window의 IDE·웹·iOS 환경에서 이용할 수 있습니다.",
+            "Grok Voice의 여러 음성을 제공하고, Privacy Mode에서는 데이터 보관을 하지 않는다고 안내했습니다."
+          ],
+          "conditions": "Cursor를 업데이트해 이용합니다. 구독 등급별 조건·지역·추가 비용은 해당 출시 기록에 명시되지 않았습니다.",
+          "evidence": "Official Nov 6 changelog date (boundary date retained); realtime call vs dictation, platforms, Grok Voice and Privacy Mode.",
+          "sources": [
+            {
+              "url": "https://cursor.com/changelog/voice-chat",
+              "label": "Cursor — Voice Chat"
+            }
+          ]
+        },
+        {
+          "event_id": "elevenlabs-elevenai-early-access-2026-11-11",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-11",
+          "headline": "ElevenAI 무료 사전 체험과 에이전트 기능 예고",
+          "bullets": [
+            "ElevenLabs는 업무용 AI 도우미 ElevenAI의 무료 사전 체험을 시작했습니다.",
+            "Scribe v3를 활용한 받아쓰기와 회의 기록 기능을 소개했습니다.",
+            "회의 참여자의 동의를 전제로 기록을 만들고 요약·후속 작업을 정리합니다."
+          ],
+          "conditions": "업무용 도우미의 사전 체험 단계입니다. 최종 요금과 지역별 제공 조건은 이 발표에 명시되지 않았습니다. 아래 ElevenAgents 확장 계획을 현재 일반 제공 기능과 구분해야 합니다.",
+          "evidence": "Nov 11 summit original: ElevenAI free early access today, Scribe v3 and meeting consent; Memory/Routines and fine-tuning are forward-looking, not claimed GA.",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/blog/nyc-summit",
+              "label": "ElevenLabs — NYC Summit 발표"
+            }
+          ],
+          "outlook": "ElevenAgents의 Memory·Routines와 모델·음성 미세조정 확장을 예고했습니다. 미세조정은 향후 수개월 계획이며, 전체 기능의 확정 출시일은 제시하지 않았습니다."
+        },
+        {
+          "event_id": "google-alphagenome-2-2026-11-11",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-11",
+          "headline": "AlphaGenome 2, 세포별 유전자 작용 예측",
+          "bullets": [
+            "DNA 서열과 세포 유형·상태를 함께 입력해 유전자 조절 효과를 예측하는 모델을 공개했습니다.",
+            "사람·생쥐의 1억 700만 개 이상 세포 프로필을 학습에 활용했다고 설명했습니다.",
+            "유전자 발현뿐 아니라 DNA 메틸화 등을 예측하며, 새로운 단일 세포 실험 데이터에 재학습 없이 적용할 수 있다고 발표했습니다."
+          ],
+          "conditions": "발표 당일부터 비상업 연구자는 AlphaGenome API와 Colab 예제를 이용할 수 있습니다. 상업 연구는 비공개 미리보기 단계입니다. 연구 전용이며 임상·진단 목적으로 검증되거나 승인된 모델은 아닙니다.",
+          "evidence": "Nov 11 original: conditional cell-state architecture, 107 million profiles, new measurements; closing availability explicitly non-commercial API/commercial private preview and research-only.",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+              "label": "Google DeepMind — AlphaGenome 2"
+            }
+          ],
+          "outlook": "Google은 Antigravity용 AlphaGenome 2 Skills도 곧 공개할 계획이라고 밝혔습니다. 구체적인 날짜는 안내하지 않았습니다."
+        },
+        {
+          "event_id": "google-gemini-robotics-2-5-2026-11-10",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-10",
+          "headline": "Gemini Robotics 2.5, 실제 로봇 작업 연구 공개",
+          "bullets": [
+            "시각·언어·행동을 결합한 모델로 복잡한 물리 작업 수행 능력을 개선했다고 발표했습니다.",
+            "Apptronik Apollo 2와 Mercedes-Benz의 부품 집기·포장 실증에서 96% 성공률을 기록했다고 밝혔습니다.",
+            "위험을 피하도록 동작을 조정하는 추론 기법과 ASIMOV Jailbreak 평가 자료를 소개했습니다."
+          ],
+          "conditions": "성공률은 회사가 소개한 특정 실증 조건의 결과입니다. 일반 소비자용 서비스 출시나 모든 로봇에서의 성능을 뜻하지 않습니다. 원문에는 일반 이용자의 접근 일정·요금·제공 지역이 명시되지 않았습니다.",
+          "evidence": "Nov 10 original: VLA model, scoped Apollo 2 Mercedes pick-and-pack proof of concept 96%, inference guidance and ASIMOV Jailbreak. No consumer availability inferred.",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+              "label": "Google DeepMind — Gemini Robotics 2.5"
+            }
+          ]
+        },
+        {
+          "event_id": "higgsfield-inkling-2-small-2026-11-06",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-06",
+          "headline": "Higgsfield, Inkling 2 Small 추가",
+          "bullets": [
+            "코드·웹사이트·3D·문서 등 여러 단계의 작업용 모델입니다.",
+            "스크린샷·차트 등 이미지 입력을 지원합니다.",
+            "처리 노력 수준을 조절하며 기본값은 Medium입니다."
+          ],
+          "conditions": "Supercomputer 모델 선택기에서 이용합니다. 도입 발표일 기준이며, 지역·구독 조건·요금은 명시되지 않았습니다.",
+          "evidence": "Nov 6 integration entry for Thinking Machines Lab model; image input, multi-step work and configurable effort.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 6일 Inkling 2 Small",
+              "entry": "2026-11-06 Inkling 2 Small"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-12T11:09:15.855829+09:00",
+      "body_sha256": "1bb1358180139ca3797c85acf452b2aea026fbc4cc0dc1fadc4f597b21b62d4d"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
