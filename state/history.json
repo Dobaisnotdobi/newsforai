@@ -443,6 +443,154 @@
         "https://suno.com/blog/introducing-bridge"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/36"
+    },
+    {
+      "event_id": "google-genie-4-project-genie-2026-11-18",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "label": "Google — Genie 4 in Project Genie"
+        }
+      ],
+      "article_source_aliases": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-chatgpt-sales-2026-11-17",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+          "label": "OpenAI — ChatGPT for Sales"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-chatgpt-for-sales"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-academic-researchers-expansion-2026-11-16",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+          "label": "OpenAI — Broadening access to AI for scientists"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-astra-for-law-6-2-2026-11-17",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/astra-law-6-2/",
+          "label": "OpenAI — Astra for Law 6.2"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/astra-law-6-2"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-healthcare-agents-plugins-2026-11-16",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+          "label": "OpenAI — 의료 검색·플러그인 업데이트"
+        },
+        {
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+          "label": "OpenAI — 의료 컴퓨터 조작 에이전트"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-csam-image-classifier-2026-11-16",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/strengthening-online-child-safety/",
+          "label": "OpenAI — 온라인 아동 보호 도구"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/strengthening-online-child-safety"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "luma-board-organizer-2026-11-14",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://lumalabs.ai/news/ai-board-manager",
+          "label": "Luma — 보드 정리 기능 출시"
+        },
+        {
+          "url": "https://lumalabs.ai/news/building-canvas-native-agents",
+          "label": "Luma — 11월 16일 기술 설명"
+        }
+      ],
+      "article_source_aliases": [
+        "https://lumalabs.ai/news/ai-board-manager",
+        "https://lumalabs.ai/news/building-canvas-native-agents"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "higgsfield-gpu-2026-11-13",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 13일 GPU",
+          "entry": "2026-11-13 Higgsfield GPU"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "meta-commercial-terms-consultation-2026-11-18",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/",
+          "label": "Meta — Commercial Terms of Service"
+        }
+      ],
+      "article_source_aliases": [
+        "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-accounting-plugin-2026-11-18",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 18일 Accounting workflows",
+          "entry": "2026-11-18 Accounting workflows"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
     }
   ],
   "publications": [
@@ -1265,9 +1413,7 @@
       "confirmed_at": "2026-11-19T11:05:16.498364+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-19-weekly",
       "category": "기타",
@@ -1487,9 +1633,16 @@
         }
       ],
       "started_at": "2026-11-19T11:05:33.818645+09:00",
-      "body_sha256": "e9aff88fe77e531c5d1461897952bcf52470d1687a0dfeccce1016abb382b601"
+      "body_sha256": "e9aff88fe77e531c5d1461897952bcf52470d1687a0dfeccce1016abb382b601",
+      "article_id": "37",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37",
+      "posted_at": "2026-11-19T11:05:36.506055+09:00",
+      "confirmed_at": "2026-11-19T11:05:36.506075+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
