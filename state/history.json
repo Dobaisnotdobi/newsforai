@@ -389,6 +389,32 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "higgsfield-short-drama-studio-2026-11-16",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 16일 Short Drama Studio",
+          "entry": "2026-11-16 Short Drama Studio"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/35"
+    },
+    {
+      "event_id": "higgsfield-seedance-2-5-flash-2026-11-12",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 12일 Seedance 2.5 Flash",
+          "entry": "2026-11-12 Seedance 2.5 Flash"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/35"
     }
   ],
   "publications": [
@@ -1097,9 +1123,7 @@
       "confirmed_at": "2026-11-19T11:04:37.427536+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-19-weekly",
       "category": "영상",
@@ -1149,9 +1173,16 @@
         }
       ],
       "started_at": "2026-11-19T11:04:54.730774+09:00",
-      "body_sha256": "642d9af2a2b1da69ded3154b07401174ef7c121cd1058412cfd13a2ad26aa922"
+      "body_sha256": "642d9af2a2b1da69ded3154b07401174ef7c121cd1058412cfd13a2ad26aa922",
+      "article_id": "35",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/35",
+      "posted_at": "2026-11-19T11:04:57.018333+09:00",
+      "confirmed_at": "2026-11-19T11:04:57.018349+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
