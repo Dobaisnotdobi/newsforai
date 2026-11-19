@@ -1182,7 +1182,59 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-19-weekly",
+      "category": "음악",
+      "title": "🎵 음악 AI 뉴스레터 — Suno Visuals, 음악에 맞는 이미지·영상 제작 외 1건",
+      "items": [
+        {
+          "event_id": "suno-visuals-2026-11-17",
+          "revision": "launch",
+          "category": "음악",
+          "announced_on": "2026-11-17",
+          "headline": "Suno Visuals, 음악에 맞는 이미지·영상 제작",
+          "bullets": [
+            "노래를 바탕으로 가사 영상·앨범 이미지·영상 클립을 만듭니다.",
+            "라이브러리의 곡을 Visuals로 가져와 최대 15초 클립을 만들고 텍스트로 연장·수정할 수 있습니다.",
+            "Suno는 곡의 구조·가사와 입 모양을 반영하도록 모델을 최적화했다고 설명했습니다.",
+            "외부 공유 전 워터마크를 넣고, 특정 인물·저작물의 부적절한 재현을 막는 필터를 적용합니다."
+          ],
+          "conditions": "발표일부터 웹·iOS·Android에서 출시합니다. Visual 크레딧은 음악 생성 크레딧과 별도로 구매합니다. 업로드 파일에 대한 이용 권한이 필요합니다.",
+          "evidence": "Official original dated 2026-11-17 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://suno.com/blog/introducing-visuals",
+              "label": "Suno — Introducing Visuals"
+            }
+          ]
+        },
+        {
+          "event_id": "suno-bridge-2026-11-13",
+          "revision": "launch",
+          "category": "음악",
+          "announced_on": "2026-11-13",
+          "headline": "Suno Bridge, Ableton 작업에 AI 음악 연결",
+          "bullets": [
+            "별도 앱으로 기존 DAW 작업과 Suno 음악 생성을 연결합니다.",
+            "세션의 템포·조성·음악적 맥락에 맞는 악기·보컬 파트를 생성합니다.",
+            "Ableton의 루프 시작·끝 표시로 생성 구간을 정하고 타임라인에 반영합니다."
+          ],
+          "conditions": "베타이며 모든 Premier 구독에 포함됩니다. 현재 Mac의 Ableton Live 12만 지원하고 두 앱을 함께 열어야 합니다. 동기화 과정에서 세션 파일이 Suno로 업로드됩니다.",
+          "evidence": "Official original dated 2026-11-13 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://suno.com/blog/introducing-bridge",
+              "label": "Suno — Suno Bridge"
+            }
+          ],
+          "outlook": "다른 운영체제와 DAW로 확대할 계획이나 구체적인 일정은 발표하지 않았습니다."
+        }
+      ],
+      "started_at": "2026-11-19T11:05:14.235270+09:00",
+      "body_sha256": "db9e6d1373fee8f391dbc89b0b2804136aceb7a00ffc401563f8074d9c4085a6"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
