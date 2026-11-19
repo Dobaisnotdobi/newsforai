@@ -292,6 +292,103 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/26"
+    },
+    {
+      "event_id": "openai-gpt-6-2-astra-sol",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "label": "OpenAI — GPT-6.2 Astra and Sol"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "google-gemini-4-neon",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "label": "Google — Gemini 4 Neon"
+        }
+      ],
+      "article_source_aliases": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "google-gemini-4-hydrogen",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "label": "Google — Gemini 4 Hydrogen"
+        }
+      ],
+      "article_source_aliases": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "openai-chatgpt-wallet",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "label": "OpenAI — ChatGPT Wallet"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "meta-muse-australia-2026-11-17",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+          "label": "Meta — Muse in Australia"
+        }
+      ],
+      "article_source_aliases": [
+        "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "meta-muse-canada-loblaw-voice-2026-11-18",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+          "label": "Meta — Loblaw and Muse in Canada"
+        }
+      ],
+      "article_source_aliases": [
+        "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+    },
+    {
+      "event_id": "openai-chatgpt-live-dictation-2026-11-18",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 18일 Live Dictation",
+          "entry": "2026-11-18 Live Dictation"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
     }
   ],
   "publications": [
@@ -842,9 +939,7 @@
       "confirmed_at": "2026-11-12T11:09:18.397252+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-19-weekly",
       "category": "종합",
@@ -995,9 +1090,16 @@
         }
       ],
       "started_at": "2026-11-19T11:04:34.727846+09:00",
-      "body_sha256": "8f19c053729d379b1b24f97a1396c2363822bb1748aa0f4d6312ceb04d0c7b6f"
+      "body_sha256": "8f19c053729d379b1b24f97a1396c2363822bb1748aa0f4d6312ceb04d0c7b6f",
+      "article_id": "34",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34",
+      "posted_at": "2026-11-19T11:04:37.427517+09:00",
+      "confirmed_at": "2026-11-19T11:04:37.427536+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
