@@ -415,6 +415,34 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/35"
+    },
+    {
+      "event_id": "suno-visuals-2026-11-17",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://suno.com/blog/introducing-visuals",
+          "label": "Suno — Introducing Visuals"
+        }
+      ],
+      "article_source_aliases": [
+        "https://suno.com/blog/introducing-visuals"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/36"
+    },
+    {
+      "event_id": "suno-bridge-2026-11-13",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://suno.com/blog/introducing-bridge",
+          "label": "Suno — Suno Bridge"
+        }
+      ],
+      "article_source_aliases": [
+        "https://suno.com/blog/introducing-bridge"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/36"
     }
   ],
   "publications": [
@@ -1180,9 +1208,7 @@
       "confirmed_at": "2026-11-19T11:04:57.018349+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-19-weekly",
       "category": "음악",
@@ -1232,9 +1258,16 @@
         }
       ],
       "started_at": "2026-11-19T11:05:14.235270+09:00",
-      "body_sha256": "db9e6d1373fee8f391dbc89b0b2804136aceb7a00ffc401563f8074d9c4085a6"
+      "body_sha256": "db9e6d1373fee8f391dbc89b0b2804136aceb7a00ffc401563f8074d9c4085a6",
+      "article_id": "36",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/36",
+      "posted_at": "2026-11-19T11:05:16.498350+09:00",
+      "confirmed_at": "2026-11-19T11:05:16.498364+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
