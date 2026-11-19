@@ -17,7 +17,8 @@
     "suno.com",
     "www.udio.com",
     "elevenlabs.io",
-    "cursor.com"
+    "cursor.com",
+    "help.openai.com"
   ],
   "indexes": [
     "https://openai.com/news/",
@@ -52,4 +53,3 @@
   ],
   "date_policy": "Use official date; when time unavailable include boundary calendar date and deduplicate against history."
 }
-
