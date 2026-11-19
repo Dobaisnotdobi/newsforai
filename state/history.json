@@ -1267,7 +1267,229 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-19-weekly",
+      "category": "기타",
+      "title": "🛠️ 기타 AI 뉴스레터 — Genie 4, 실시간으로 바꾸는 가상 세계 외 9건",
+      "items": [
+        {
+          "event_id": "google-genie-4-project-genie-2026-11-18",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-18",
+          "headline": "Genie 4, 실시간으로 바꾸는 가상 세계",
+          "bullets": [
+            "탐색 중 프롬프트로 날씨·인물·환경을 바꾸고 장면에 반응하는 실시간 오디오를 생성합니다.",
+            "함께 갱신된 Genie 3는 생성당 최대 3분 탐색과 360도 파노라마 입력을 지원합니다.",
+            "Project Genie 에이전트와 커뮤니티 갤러리에서 세계를 제작·공유·리믹스할 수 있습니다."
+          ],
+          "conditions": "적격 Google AI Ultra 구독자에게 발표일부터 제공합니다. AI Pro 이용자는 대기 명단에 등록할 수 있습니다. 연구 단계의 세계 모델로 지연·물리 상호작용·장기 장면 유지 등에 한계가 있다고 설명했습니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+              "label": "Google — Genie 4 in Project Genie"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-chatgpt-sales-2026-11-17",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-17",
+          "headline": "ChatGPT for Sales, 영업 업무용 플러그인",
+          "bullets": [
+            "영업 대상 선정·통화 준비·후속 연락 초안을 위한 Sales 플러그인을 공개했습니다.",
+            "30개 이상의 신규·확장 파트너 플러그인으로 기존 영업 도구의 맥락을 연결합니다.",
+            "고객 맞춤 제안서 작성과 거래의 다음 단계·위험 요소 정리를 지원합니다."
+          ],
+          "conditions": "Sales 플러그인을 설치해 시작합니다. 파트너 플러그인과 기능은 요금제·지역·워크스페이스 설정에 따라 달라집니다.",
+          "evidence": "Official original dated 2026-11-17 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+              "label": "OpenAI — ChatGPT for Sales"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-academic-researchers-expansion-2026-11-16",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-16",
+          "headline": "연구자 ChatGPT 지원, 11월 23일 신규 신청",
+          "bullets": [
+            "학술 연구자 지원 프로그램의 다음 모집을 발표했습니다.",
+            "자격을 갖춘 선착순 5만 건에 신청자와 최대 2명의 공동 연구자를 위한 ChatGPT Plus를 제공합니다.",
+            "기존 시범사업의 Pro·추첨 방식에서 새 모집은 Plus·선착순 방식으로 바뀝니다."
+          ],
+          "conditions": "신청은 11월 23일 시작 예정이며 현재 접수 중이라고 발표한 것은 아닙니다. 적격 연구자 대상이고, 이미 대기 명단에 있는 적격자는 활성화 안내를 이메일로 받습니다. 이번 모집은 최대 15만 명을 지원하는 구조입니다.",
+          "evidence": "Official original dated 2026-11-16 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+              "label": "OpenAI — Broadening access to AI for scientists"
+            }
+          ],
+          "outlook": "OpenAI는 프로그램 전체의 지원 목표를 전 세계 연구자 최대 20만 명으로 확대했습니다."
+        },
+        {
+          "event_id": "openai-astra-for-law-6-2-2026-11-17",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-17",
+          "headline": "Astra for Law 6.2, 기업 신청 대상 확대",
+          "bullets": [
+            "GPT-6.2 Astra에 법률 검색 색인과 조사 지침을 결합한 새 구성을 공개했습니다.",
+            "법률 검색 색인을 기존 대비 3분의 1 이상 확대했다고 설명했습니다.",
+            "모든 ChatGPT Enterprise 고객이 Trusted Access Program을 통해 이용을 신청할 수 있도록 했습니다."
+          ],
+          "conditions": "API 접근도 신청 범위에 포함됩니다. 신청 가능 확대이며 모든 계정에 자동 활성화된다는 뜻은 아닙니다. 구체적인 가격·지역은 이 발표에 명시되지 않았습니다.",
+          "evidence": "Official original dated 2026-11-17 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/astra-law-6-2/",
+              "label": "OpenAI — Astra for Law 6.2"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-healthcare-agents-plugins-2026-11-16",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-16",
+          "headline": "ChatGPT 의료 업무, 컴퓨터 조작·플러그인 확대",
+          "bullets": [
+            "임상 근거를 찾고 평가하며 인용하는 검색 기능을 개선했습니다.",
+            "20개 이상의 의료 플러그인을 추가해 기록 확인·진료 조정·행정 업무를 연결합니다.",
+            "화면 읽기·클릭·입력으로 여러 의료 시스템을 오가는 에이전트 기능과 접근 제어·감사 로그를 소개했습니다."
+          ],
+          "conditions": "의료 조직·개발자·임상가는 API와 ChatGPT for Healthcare·Clinicians 등의 경로를 이용합니다. 민감한 의료정보를 다루는 HIPAA 준수 업무에는 BAA에 포함된 적격 서비스와 필수 보안·보존 설정, 연결 시스템 보호가 필요합니다. 조직이 사람 검토가 필요한 단계를 정해야 합니다.",
+          "evidence": "Official original dated 2026-11-16 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+              "label": "OpenAI — 의료 검색·플러그인 업데이트"
+            },
+            {
+              "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+              "label": "OpenAI — 의료 컴퓨터 조작 에이전트"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-csam-image-classifier-2026-11-16",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-16",
+          "headline": "OpenAI, 아동 보호용 이미지 분류 도구 제공",
+          "bullets": [
+            "잠재적인 아동 성착취물 탐지를 돕는 이미지 분류 도구를 발표했습니다.",
+            "AI 생성 가능성에 대한 별도 신호도 제공합니다.",
+            "검토자가 우선 확인할 이미지를 정하도록 점수를 반환합니다."
+          ],
+          "conditions": "심사를 통과한 조직에 OpenAI API로 무료 제공합니다. 사람의 검토를 지원하는 도구이며 분류 결과만으로 모든 판단이 완료되는 방식은 아닙니다.",
+          "evidence": "Official original dated 2026-11-16 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/strengthening-online-child-safety/",
+              "label": "OpenAI — 온라인 아동 보호 도구"
+            }
+          ]
+        },
+        {
+          "event_id": "luma-board-organizer-2026-11-14",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-14",
+          "headline": "Luma, 최대 1만 개 자료를 정리하는 보드 에이전트",
+          "bullets": [
+            "보드·프레임·선택한 자료를 내용과 관계에 따라 묶고 이름을 붙입니다.",
+            "제품·캠페인·제작 단계 등 사용자가 정한 기준으로 최대 1만 개 자료를 처리합니다.",
+            "재배치 전 승인을 받고, 이후 편집을 보존하면서 정리 작업을 되돌릴 수 있습니다."
+          ],
+          "conditions": "Luma 보드에서 에이전트에게 정리를 요청합니다. 선택한 범위 안에서 작업하며 요금제·지역별 제한은 원문에 명시되지 않았습니다.",
+          "evidence": "Official original dated 2026-11-14 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/news/ai-board-manager",
+              "label": "Luma — 보드 정리 기능 출시"
+            },
+            {
+              "url": "https://lumalabs.ai/news/building-canvas-native-agents",
+              "label": "Luma — 11월 16일 기술 설명"
+            }
+          ]
+        },
+        {
+          "event_id": "higgsfield-gpu-2026-11-13",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-13",
+          "headline": "Higgsfield GPU, 채팅으로 클라우드 GPU 사용",
+          "bullets": [
+            "Claude·ChatGPT·Supercomputer에서 GPU 환경 설정과 작업 실행을 요청합니다.",
+            "렌더링과 사용자 모델·LoRA 설치를 지원합니다.",
+            "가동 시간으로 과금하며 기본적으로 10분 유휴 후 대여가 일시 중지됩니다."
+          ],
+          "conditions": "가격·자동 중지 설정을 확인하고 대여를 승인합니다. GPU를 종료하기 전에 결과물을 내보내야 합니다. 구독·지역 조건은 명시되지 않았습니다.",
+          "evidence": "Official original dated 2026-11-13 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 13일 GPU",
+              "entry": "2026-11-13 Higgsfield GPU"
+            }
+          ]
+        },
+        {
+          "event_id": "meta-commercial-terms-consultation-2026-11-18",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-18",
+          "headline": "Meta, 상업 이용약관 개정안 보류·협의 계획",
+          "bullets": [
+            "웹 크롤러 적용을 둘러싼 우려를 반영해 제안했던 상업 이용약관 변경을 보류했다고 설명했습니다.",
+            "의견 청취·수정안 검토·시행 전 추가 협의의 3단계 절차를 제시했습니다.",
+            "크롤러는 공식 개발 문서에 설명된 robots.txt 방식을 따른다고 밝혔습니다."
+          ],
+          "conditions": "이번 발표는 개정 약관의 시행 공지가 아니라 보류 후 협의 절차 안내입니다. 최종 수정 문구와 시행일은 확정해 제시하지 않았습니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/",
+              "label": "Meta — Commercial Terms of Service"
+            }
+          ],
+          "outlook": "향후 수개월 동안 의견을 듣고, 2027년 초에는 시행 전 출판사·관계자·규제기관과 추가 협의할 계획입니다."
+        },
+        {
+          "event_id": "openai-accounting-plugin-2026-11-18",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-18",
+          "headline": "ChatGPT, 회계 업무용 플러그인 안내",
+          "bullets": [
+            "거래 대사 작업을 돕는 Accounting 플러그인을 안내했습니다.",
+            "기록과 템플릿을 바탕으로 청구서 입력 초안을 작성합니다.",
+            "월말 보고서 준비를 지원합니다."
+          ],
+          "conditions": "macOS·Windows용 ChatGPT 데스크톱 앱에서 컴퓨터 사용을 설정한 뒤 설치합니다. 요금제·워크스페이스에 제공되는 경우 이용할 수 있으며, Enterprise는 관리자 승인이 필요합니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; launch status and conditions checked, forecasts separated.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 18일 Accounting workflows",
+              "entry": "2026-11-18 Accounting workflows"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-19T11:05:33.818645+09:00",
+      "body_sha256": "e9aff88fe77e531c5d1461897952bcf52470d1687a0dfeccce1016abb382b601"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
