@@ -844,7 +844,160 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-19-weekly",
+      "category": "종합",
+      "title": "🤖 종합 AI 뉴스레터 — GPT-6.2 Astra·Sol 출시와 API 요금 외 6건",
+      "items": [
+        {
+          "event_id": "openai-gpt-6-2-astra-sol",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-17",
+          "headline": "GPT-6.2 Astra·Sol 출시와 API 요금",
+          "bullets": [
+            "Astra는 복잡한 전문 작업, Sol은 일상 업무의 속도와 효율을 중심으로 설계했습니다.",
+            "문서·슬라이드·코딩 결과와 출력 토큰 효율을 개선했다고 발표했습니다.",
+            "표준 API의 100만 토큰당 입력·출력 요금은 Astra 8·40달러, Sol 2·10달러입니다."
+          ],
+          "conditions": "ChatGPT Work·Codex의 Plus·Pro·Enterprise·Edu와 API에서 제공합니다. 관리형 워크스페이스는 관리자 설정의 영향을 받습니다. Pro 500은 두 모델의 Ultrafast를, Pro 200은 Sol의 Ultrafast를 이용합니다. 일반 Chat의 모델 선택에는 이번 추가가 적용되지 않습니다.",
+          "evidence": "Official original dated 2026-11-17 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+              "label": "OpenAI — GPT-6.2 Astra and Sol"
+            }
+          ]
+        },
+        {
+          "event_id": "google-gemini-4-neon",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-18",
+          "headline": "Gemini 4 Neon, 전문 작업용 모델 공개",
+          "bullets": [
+            "소프트웨어 개발·지식 업무·과학 작업의 빠른 완료를 목표로 한 모델입니다.",
+            "100만 토큰 문맥에서 문서·표·이미지·오디오·영상 정보를 함께 처리합니다.",
+            "API는 100만 토큰당 입력 3달러·캐시 입력 0.15달러·출력 15달러입니다."
+          ],
+          "conditions": "발표 당일부터 Gemini API·AI Studio·Gemini for business, AI Pro·Ultra의 Gemini 앱 및 Antigravity에 순차 제공합니다. 국가별 상세 목록은 원문에 없습니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+              "label": "Google — Gemini 4 Neon"
+            }
+          ],
+          "outlook": "보안 특화 Neon for cyber는 Fairwind 프로그램의 신뢰된 방어 조직에 향후 수일 내 제공할 계획입니다."
+        },
+        {
+          "event_id": "google-gemini-4-hydrogen",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-12",
+          "headline": "Gemini 4 Hydrogen, 일상 작업용 모델 확대",
+          "bullets": [
+            "일상 코딩과 여러 단계의 에이전트 작업을 빠르게 수행하는 모델을 발표했습니다.",
+            "추론 수준은 low·medium·high·xhigh 4단계이며 기본값은 high입니다.",
+            "100만 토큰 문맥 전체에 같은 요율을 적용하며, API 입력·출력은 100만 토큰당 1.50·7.50달러입니다."
+          ],
+          "conditions": "AI Studio·Gemini API·Gemini for business·Gemini 앱·검색에 제공하며, Antigravity는 유료 AI Pro·Ultra 대상입니다. 공식 발표일은 11월 12일, 원문 최종 갱신일은 11월 16일입니다.",
+          "evidence": "Official original dated 2026-11-12 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+              "label": "Google — Gemini 4 Hydrogen"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-chatgpt-wallet",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-13",
+          "headline": "ChatGPT Wallet, 승인 기반 대리 결제 시작",
+          "bullets": [
+            "카드를 한 번 등록한 뒤 dot이 구매 절차를 진행하도록 할 수 있습니다.",
+            "결제마다 상품·금액·카드를 확인하고 생체 인증 등의 보안 검사를 거칩니다.",
+            "실제 카드 정보 대신 결제 토큰을 사용하며, 적격 거래의 기존 카드 혜택과 분쟁 보호를 유지합니다."
+          ],
+          "conditions": "미국의 18세 이상 ChatGPT Pro 이용자 중 적격 미국 발급 카드와 미국 청구지 주소를 가진 사용자에게 dots에서 점진 제공합니다. 일부 사이트는 에이전트 구매를 지원하지 않으며, 승인만으로 주문 완료가 보장되지는 않습니다.",
+          "evidence": "Official original dated 2026-11-13 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+              "label": "OpenAI — ChatGPT Wallet"
+            }
+          ],
+          "outlook": "지출 한도 등 조건을 정해 구매를 사전 승인하는 방식은 향후 구상이며, 현재 모든 구매를 무인 처리하는 기능으로 발표된 것은 아닙니다."
+        },
+        {
+          "event_id": "meta-muse-australia-2026-11-17",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-17",
+          "headline": "Meta Muse, 호주 서비스 개시",
+          "bullets": [
+            "개인 AI 에이전트 Muse의 호주 제공을 시작했습니다.",
+            "Gmail·Google Calendar·Instagram·OpenTable 등과 연결해 일상 작업을 지원합니다.",
+            "Canva 연결 기능은 전 세계 Muse 이용자에게도 제공한다고 안내했습니다."
+          ],
+          "conditions": "이번 지역 확대 대상은 호주입니다. 현지 쇼핑·부동산·운동·티켓 관련 연결 기능은 단계적으로 제공하며 일부는 출시 이후 사용할 수 있습니다. 개별 기능의 요금·완료 일정은 명시하지 않았습니다.",
+          "evidence": "Official original dated 2026-11-17 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+              "label": "Meta — Muse in Australia"
+            }
+          ]
+        },
+        {
+          "event_id": "meta-muse-canada-loblaw-voice-2026-11-18",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-18",
+          "headline": "Meta Muse, 캐나다 장보기·음성 기능 확대",
+          "bullets": [
+            "Loblaw가 캐나다 첫 유통 연결 파트너로 참여했습니다.",
+            "참여 브랜드에서 식단 계획·장바구니 구성·결제를 Muse 안에서 진행할 수 있습니다.",
+            "실시간 음성 대화를 캐나다의 모바일·웹·Mac으로 확대합니다."
+          ],
+          "conditions": "캐나다 이용자와 참여 Loblaw 브랜드 대상입니다. 구매 등 민감한 행동 전에는 이용자에게 확인한다고 설명했습니다. 세부 가격과 브랜드별 범위는 원문에서 확인해야 합니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+              "label": "Meta — Loblaw and Muse in Canada"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-chatgpt-live-dictation-2026-11-18",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-18",
+          "headline": "ChatGPT, 말하는 동안 표시되는 실시간 받아쓰기",
+          "bullets": [
+            "발화하는 동안 음성을 텍스트로 변환하는 Live Dictation을 도입합니다.",
+            "파형을 누르면 변환 중인 텍스트를 표시하거나 숨길 수 있습니다.",
+            "기존 10분 녹음 제한을 없앴습니다."
+          ],
+          "conditions": "모든 ChatGPT 요금제의 iOS·Android·웹·데스크톱 앱에 전 세계적으로 순차 배포합니다.",
+          "evidence": "Official original dated 2026-11-18 reviewed on 2026-11-19; bullets and access conditions verified against the original.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 18일 Live Dictation",
+              "entry": "2026-11-18 Live Dictation"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-19T11:04:34.727846+09:00",
+      "body_sha256": "8f19c053729d379b1b24f97a1396c2363822bb1748aa0f4d6312ceb04d0c7b6f"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
