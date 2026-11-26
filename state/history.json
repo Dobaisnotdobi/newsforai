@@ -649,6 +649,45 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39"
+    },
+    {
+      "event_id": "higgsfield-magi-2-2026-11-24",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 24일 MAGI-2",
+          "entry": "2026-11-24 MAGI-2"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/40"
+    },
+    {
+      "event_id": "higgsfield-editing-room-2026-11-20",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 20일 Editing Room",
+          "entry": "2026-11-20 Editing Room"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/40"
+    },
+    {
+      "event_id": "higgsfield-property-studio-2026-11-19",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 19일 Property Studio",
+          "entry": "2026-11-19 Property Studio"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/40"
     }
   ],
   "publications": [
@@ -1802,9 +1841,7 @@
       "confirmed_at": "2026-11-26T11:03:13.326007+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-26-weekly",
       "category": "영상",
@@ -1875,9 +1912,16 @@
         }
       ],
       "started_at": "2026-11-26T11:03:30.692260+09:00",
-      "body_sha256": "4ad3fb31354b71987a5794e40811cdf8f558333318abf053a28442aaac728f7d"
+      "body_sha256": "4ad3fb31354b71987a5794e40811cdf8f558333318abf053a28442aaac728f7d",
+      "article_id": "40",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/40",
+      "posted_at": "2026-11-26T11:03:33.180925+09:00",
+      "confirmed_at": "2026-11-26T11:03:33.180942+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
