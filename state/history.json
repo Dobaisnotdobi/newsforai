@@ -733,6 +733,47 @@
         "https://lumalabs.ai/news/brand-kit-character-library"
       ],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/41"
+    },
+    {
+      "event_id": "openai-cisco-shirudo-2026-11-23",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "label": "OpenAI — Introducing Shirudo"
+        }
+      ],
+      "article_source_aliases": [
+        "https://openai.com/index/introducing-shirudo"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/42"
+    },
+    {
+      "event_id": "google-mass-spec-skills-2026-11-25",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+          "label": "Google DeepMind — Mass Spec Skills"
+        }
+      ],
+      "article_source_aliases": [
+        "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/42"
+    },
+    {
+      "event_id": "openai-health-platform-expansion-2026-11-19",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 19일 Health 확대",
+          "entry": "2026-11-19 Health on Android desktop dots sites"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/42"
     }
   ],
   "publications": [
@@ -2047,9 +2088,7 @@
       "confirmed_at": "2026-11-26T11:03:52.885788+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-26-weekly",
       "category": "기타",
@@ -2119,9 +2158,16 @@
         }
       ],
       "started_at": "2026-11-26T11:04:10.270510+09:00",
-      "body_sha256": "e48289637242e7d8299ead319ebb4c2b4769e5336fb937e27224efdaf6ba39ba"
+      "body_sha256": "e48289637242e7d8299ead319ebb4c2b4769e5336fb937e27224efdaf6ba39ba",
+      "article_id": "42",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/42",
+      "posted_at": "2026-11-26T11:04:12.630547+09:00",
+      "confirmed_at": "2026-11-26T11:04:12.630565+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
