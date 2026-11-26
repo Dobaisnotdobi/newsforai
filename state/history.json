@@ -591,6 +591,64 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/37"
+    },
+    {
+      "event_id": "openai-gpt-6-2-astra-sol",
+      "revision": "chat-rollout-2026-11-23",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 23일 GPT-6.2 Chat",
+          "entry": "2026-11-23 GPT-6.2 now in chat"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39"
+    },
+    {
+      "event_id": "openai-space-plus-2026-11-20",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 20일 Space",
+          "entry": "2026-11-20 Space Plus"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39"
+    },
+    {
+      "event_id": "meta-muse-uk-2026-11-23",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+          "label": "Meta — 영국 출시 안내"
+        },
+        {
+          "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
+          "label": "Meta — 영국 출시와 이용자 통제"
+        }
+      ],
+      "article_source_aliases": [
+        "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control",
+        "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39"
+    },
+    {
+      "event_id": "openai-mobile-redesign-2026-11-19",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "label": "OpenAI — 11월 19일 모바일 개편",
+          "entry": "2026-11-19 New mobile experience"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39"
     }
   ],
   "publications": [
@@ -1640,9 +1698,7 @@
       "confirmed_at": "2026-11-19T11:05:36.506075+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-26-weekly",
       "category": "종합",
@@ -1739,9 +1795,16 @@
         }
       ],
       "started_at": "2026-11-26T11:03:10.284359+09:00",
-      "body_sha256": "5b0813430cc444a17e5c6bf1805c748e98094342b3952910b06a8766ac2c27fe"
+      "body_sha256": "5b0813430cc444a17e5c6bf1805c748e98094342b3952910b06a8766ac2c27fe",
+      "article_id": "39",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/39",
+      "posted_at": "2026-11-26T11:03:13.325990+09:00",
+      "confirmed_at": "2026-11-26T11:03:13.326007+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
