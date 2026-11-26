@@ -1804,7 +1804,80 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-26-weekly",
+      "category": "영상",
+      "title": "🎬 영상 AI 뉴스레터 — Higgsfield, 영상·음향 생성 MAGI-2 도입 외 2건",
+      "items": [
+        {
+          "event_id": "higgsfield-magi-2-2026-11-24",
+          "revision": "launch",
+          "category": "영상",
+          "announced_on": "2026-11-24",
+          "headline": "Higgsfield, 영상·음향 생성 MAGI-2 도입",
+          "bullets": [
+            "Sand.ai 모델로 영상과 소리를 함께 생성합니다.",
+            "4~30초, 1080p·25fps 출력을 지원합니다.",
+            "이미지·영상·음성 참조와 시작·끝 프레임을 활용합니다."
+          ],
+          "conditions": "Higgsfield 우선 제공 발표입니다. 구독·지역·요금은 명시되지 않았습니다.",
+          "evidence": "Nov 24 entry: exclusive first access, synchronized sound, 4–30 sec 1080p 25fps; no plan/geography stated.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 24일 MAGI-2",
+              "entry": "2026-11-24 MAGI-2"
+            }
+          ]
+        },
+        {
+          "event_id": "higgsfield-editing-room-2026-11-20",
+          "revision": "launch",
+          "category": "영상",
+          "announced_on": "2026-11-20",
+          "headline": "Higgsfield Editing Room, 구간별 영상 편집",
+          "bullets": [
+            "업로드 영상의 선택 구간에서 인물·장소·각도를 바꿉니다.",
+            "카메라 이동·조명·브러시 편집을 지원합니다.",
+            "수정을 누적하고 원본과 비교해 내보냅니다."
+          ],
+          "conditions": "Editing Room에서 이용합니다. 구독·지역·요금은 발표에 없습니다.",
+          "evidence": "Nov 20 original: selected moment edits stack; swap, camera, relight, brush and comparison views.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 20일 Editing Room",
+              "entry": "2026-11-20 Editing Room"
+            }
+          ]
+        },
+        {
+          "event_id": "higgsfield-property-studio-2026-11-19",
+          "revision": "launch",
+          "category": "영상",
+          "announced_on": "2026-11-19",
+          "headline": "Higgsfield Property Studio, 평면도를 투어 영상으로",
+          "bullets": [
+            "평면도에서 방을 인식해 가구가 배치된 3D 공간을 만듭니다.",
+            "공간별 대본과 내레이션을 구성합니다.",
+            "투어를 미리 보고 수정한 뒤 영상으로 생성합니다."
+          ],
+          "conditions": "부동산·인테리어용 시각화입니다. 최대 20개 참고 이미지를 지원하며 요금·지역은 명시하지 않았습니다.",
+          "evidence": "Nov 19 boundary date entry; plan-based visualization, 20 references, narrated tour.",
+          "sources": [
+            {
+              "url": "https://higgsfield.ai/creator-hub/changelog",
+              "label": "Higgsfield — 11월 19일 Property Studio",
+              "entry": "2026-11-19 Property Studio"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-26T11:03:30.692260+09:00",
+      "body_sha256": "4ad3fb31354b71987a5794e40811cdf8f558333318abf053a28442aaac728f7d"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
