@@ -688,6 +688,51 @@
       ],
       "article_source_aliases": [],
       "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/40"
+    },
+    {
+      "event_id": "ideogram-4-6-platform-launch-2026-11-19",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://runway.com/changelog",
+          "label": "Runway — 11월 19일 Ideogram 4.6",
+          "entry": "2026-11-19 Ideogram 4.6"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/changelog",
+          "label": "Higgsfield — 11월 19일 Ideogram 4.6",
+          "entry": "2026-11-19 Ideogram 4.6"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/41"
+    },
+    {
+      "event_id": "runway-minimax-h3-image-2026-11-20",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://runway.com/changelog",
+          "label": "Runway — 11월 20일 MiniMax H3 Image",
+          "entry": "2026-11-20 Minimax H3 Image"
+        }
+      ],
+      "article_source_aliases": [],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/41"
+    },
+    {
+      "event_id": "luma-brand-kit-character-library-2026-11-25",
+      "revision": "launch",
+      "sources": [
+        {
+          "url": "https://lumalabs.ai/news/brand-kit-character-library",
+          "label": "Luma — Brand Kit and Character Library"
+        }
+      ],
+      "article_source_aliases": [
+        "https://lumalabs.ai/news/brand-kit-character-library"
+      ],
+      "article_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/41"
     }
   ],
   "publications": [
@@ -1919,9 +1964,7 @@
       "confirmed_at": "2026-11-26T11:03:33.180942+09:00",
       "recovered": false,
       "visibility": "public"
-    }
-  ],
-  "pending": [
+    },
     {
       "issue_id": "2026-11-26-weekly",
       "category": "이미지",
@@ -1997,9 +2040,16 @@
         }
       ],
       "started_at": "2026-11-26T11:03:50.615622+09:00",
-      "body_sha256": "5d90b220e68b13e4e7e14eded18441f0c44fede94fefc0c4cf58ca476bb20c7a"
+      "body_sha256": "5d90b220e68b13e4e7e14eded18441f0c44fede94fefc0c4cf58ca476bb20c7a",
+      "article_id": "41",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/41",
+      "posted_at": "2026-11-26T11:03:52.885771+09:00",
+      "confirmed_at": "2026-11-26T11:03:52.885788+09:00",
+      "recovered": false,
+      "visibility": "public"
     }
   ],
+  "pending": [],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
