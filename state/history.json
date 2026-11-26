@@ -2049,7 +2049,79 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-26-weekly",
+      "category": "기타",
+      "title": "🛠️ 기타 AI 뉴스레터 — OpenAI·Cisco, Linux 보호 도구 Shirudo 공개 외 2건",
+      "items": [
+        {
+          "event_id": "openai-cisco-shirudo-2026-11-23",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-23",
+          "headline": "OpenAI·Cisco, Linux 보호 도구 Shirudo 공개",
+          "bullets": [
+            "패치를 적용하는 동안 실행 중인 Linux 시스템을 보호하는 오픈소스 런타임을 공개했습니다.",
+            "eBPF 기반 임시 보호 장치를 시험하고 운영자 승인 후 적용하도록 설계했습니다.",
+            "통제된 시험에서 Codex가 만든 보호 장치가 재시작 없이 공격을 차단했다고 설명했습니다."
+          ],
+          "conditions": "개발자·보안 연구자·운영자가 코드를 검토하고 시험할 수 있습니다. 런타임은 BSD 2-Clause, BPF 프로그램은 BSD·GPL 이중 라이선스입니다. 특정 시험 결과가 모든 취약점의 자동 차단을 보장하지는 않습니다.",
+          "evidence": "Nov 23 official release; open source runtime, operator approvals, scoped controlled test and licenses verified.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-shirudo/",
+              "label": "OpenAI — Introducing Shirudo"
+            }
+          ],
+          "outlook": "취약점 공개와 함께 검증된 보호 장치를 제공하는 체계를 목표로 하고 있습니다."
+        },
+        {
+          "event_id": "google-mass-spec-skills-2026-11-25",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-25",
+          "headline": "Google Antigravity, 질량분석용 Skills 공개",
+          "bullets": [
+            "Gemini 추론과 질량분석 도구·공개 화학 데이터베이스를 결합합니다.",
+            "스펙트럼 검색·분자식 예측·후보 구조 검토를 한 작업 흐름으로 연결합니다.",
+            "화학자가 검토할 수 있도록 근거와 분석 결과를 정리합니다."
+          ],
+          "conditions": "발표일부터 Antigravity 앱의 Mass Spec 플러그인을 설치해 이용합니다. Enterprise는 Google Cloud 계정으로 접근할 수 있습니다. 신규 분자나 유사 이성질체는 추가 측정·전문가 판단이 필요하며, 요금·지역은 본문에 명시되지 않았습니다.",
+          "evidence": "Nov 25 original; available-today installation and Enterprise access at closing; limitations on novel molecules and isomers explicitly retained.",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+              "label": "Google DeepMind — Mass Spec Skills"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-health-platform-expansion-2026-11-19",
+          "revision": "launch",
+          "category": "기타",
+          "announced_on": "2026-11-19",
+          "headline": "ChatGPT Health, Android·데스크톱 등으로 확대",
+          "bullets": [
+            "Android Health Connect 연동을 추가합니다.",
+            "데스크톱·dots·sites에서도 건강 정보를 활용합니다.",
+            "연결 정보에 따른 제안과 운동 기록용 사이트 제작을 지원합니다."
+          ],
+          "conditions": "미국 Free·Go·Plus·Pro에 순차 제공합니다. dots는 Pro 대상입니다.",
+          "evidence": "Nov 19 original specifies US tiers, gradual rollout and dots Pro restriction.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 19일 Health 확대",
+              "entry": "2026-11-19 Health on Android desktop dots sites"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-26T11:04:10.270510+09:00",
+      "body_sha256": "e48289637242e7d8299ead319ebb4c2b4769e5336fb937e27224efdaf6ba39ba"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
