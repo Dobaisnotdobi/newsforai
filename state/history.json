@@ -1642,7 +1642,106 @@
       "visibility": "public"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "issue_id": "2026-11-26-weekly",
+      "category": "종합",
+      "title": "🤖 종합 AI 뉴스레터 — GPT-6.2, 일반 Chat 탭으로 확대 외 3건",
+      "items": [
+        {
+          "event_id": "openai-gpt-6-2-astra-sol",
+          "revision": "chat-rollout-2026-11-23",
+          "category": "종합",
+          "announced_on": "2026-11-23",
+          "headline": "GPT-6.2, 일반 Chat 탭으로 확대",
+          "bullets": [
+            "일상 대화에 맞춘 GPT-6.2 Sol 기반 버전을 제공합니다.",
+            "OpenAI는 이미지 이해·복잡한 지시 이행·웹 검색을 개선했다고 설명했습니다.",
+            "이번 배포로 Work·Codex의 모델이 바뀌지는 않습니다."
+          ],
+          "conditions": "전 세계 Plus·Pro·Business·Enterprise에 순차 제공하며 Enterprise는 관리자 설정을 따릅니다.",
+          "evidence": "Nov 23 release note states Chat-tuned Sol variant, global paid tiers and unchanged Work/Codex. Reconciled against Nov 17 launch in article 34.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 23일 GPT-6.2 Chat",
+              "entry": "2026-11-23 GPT-6.2 now in chat"
+            }
+          ],
+          "change": "지난 글에서는 Work·Codex·API 출시를 다뤘습니다. 이번 변경은 일반 Chat 탭으로의 제공 확대입니다.",
+          "previous_url": "https://cafe.naver.com/f-e/cafes/31813012/articles/34"
+        },
+        {
+          "event_id": "openai-space-plus-2026-11-20",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-20",
+          "headline": "ChatGPT Space, Plus로 제공 확대",
+          "bullets": [
+            "대화로 페이지·발표자료를 만들고 공동 편집합니다.",
+            "연결 앱에 따라 콘텐츠가 자동 갱신되도록 설정할 수 있습니다.",
+            "사이드바에서 Library를 대신해 파일·이미지 등을 모읍니다."
+          ],
+          "conditions": "전 세계 18세 이상 Plus에 순차 제공합니다. 공유 자료는 Space 접근권이 있는 유료 계정의 로그인과 열람 권한이 필요하며, Free 열람·공개 링크는 지원하지 않습니다.",
+          "evidence": "Nov 20 original: 18+ Plus global rollout, collaboration and auto updates; Free/public-link restrictions explicit.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 20일 Space",
+              "entry": "2026-11-20 Space Plus"
+            }
+          ]
+        },
+        {
+          "event_id": "meta-muse-uk-2026-11-23",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-23",
+          "headline": "Meta Muse, 영국 서비스 출시",
+          "bullets": [
+            "연결 앱과 웹사이트에서 일정·쇼핑·여행 등의 작업을 진행하는 개인 에이전트를 출시했습니다.",
+            "이메일 전송·구매 등 민감한 행동에는 이용자의 승인이 필요합니다.",
+            "비밀번호·결제 정보를 모델에 노출하지 않고, 대화 내용을 Meta 광고 시스템에 공유하지 않는다고 설명했습니다."
+          ],
+          "conditions": "영국의 18세 이상 이용자에게 iOS·Android·웹·WhatsApp에서 제공합니다. 기본 이용은 무료이며 사용량을 늘리는 선택형 구독이 있습니다. AI 개선용 상호작용 사용 설정은 기본 켜짐이며 설정에서 끌 수 있습니다.",
+          "evidence": "Both Nov 23 official pages checked; launch page updated Nov 24. Consolidated availability and separate controls explanation, including opt-out training setting.",
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+              "label": "Meta — 영국 출시 안내"
+            },
+            {
+              "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
+              "label": "Meta — 영국 출시와 이용자 통제"
+            }
+          ]
+        },
+        {
+          "event_id": "openai-mobile-redesign-2026-11-19",
+          "revision": "launch",
+          "category": "종합",
+          "announced_on": "2026-11-19",
+          "headline": "ChatGPT 모바일, 탭 구성 개편",
+          "bullets": [
+            "dot 전용 탭을 추가합니다.",
+            "Codex·Projects·Images 등을 탭 바에 고정할 수 있습니다.",
+            "설정에 새 디자인 항목이 표시되면 전환할 수 있습니다."
+          ],
+          "conditions": "18세 이상 Pro와 일부 적격 Plus부터 순차 적용합니다. 한국·영국·스위스·EEA는 이번 배포에서 제외됩니다.",
+          "evidence": "Nov 19 date-only boundary included and history checked; explicit Korea/UK/Swiss/EEA exclusions preserved.",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "label": "OpenAI — 11월 19일 모바일 개편",
+              "entry": "2026-11-19 New mobile experience"
+            }
+          ]
+        }
+      ],
+      "started_at": "2026-11-26T11:03:10.284359+09:00",
+      "body_sha256": "5b0813430cc444a17e5c6bf1805c748e98094342b3952910b06a8766ac2c27fe"
+    }
+  ],
   "reconciliations": [
     {
       "checked_at": "2026-11-06T00:16:40.392Z",
